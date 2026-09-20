@@ -1,0 +1,6 @@
+{
+  "name": "Vexqira AI Solutions",
+  "description": "High-converting responsive website for Vexqira AI Solutions helping clinics, salons, and real estate businesses automate bookings 24/7.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
