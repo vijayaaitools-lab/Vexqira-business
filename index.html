@@ -4,9 +4,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Vexqira AI Solutions | 24/7 AI Customer Booking & Automation</title>
-  <meta name="description" content="Official website for Vexqira AI Solutions. The smart business building platform empowering local clinics, salons, and real estate businesses with 24/7 AI booking and automation." />
-  <meta property="og:title" content="Vexqira AI Solutions | The Smart Business Building" />
-  <meta property="og:description" content="Turn missed calls & late inquiries into confirmed bookings on WhatsApp 24/7. Call/WhatsApp: +91 74993 20493." />
+  <meta name="description" content="Automated 24/7 WhatsApp booking systems for healthcare clinics, salons, and businesses, featuring real deployment photo gallery and interactive video walkthroughs." />
+  <meta property="og:title" content="Vexqira AI Solutions | 24/7 AI Customer Booking & Automation" />
+  <meta property="og:description" content="Automated 24/7 WhatsApp booking systems for healthcare clinics, salons, and businesses, featuring real deployment photo gallery and interactive video walkthroughs." />
   <meta property="og:type" content="website" />
   <link rel="icon" type="image/jpeg" href="/vexqira-logo.jpg" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -52,6 +52,12 @@
       background: #CBD5E1;
       border-radius: 4px;
     }
+    .glass-card {
+      background: rgba(15, 23, 42, 0.75);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
   </style>
 </head>
 <body class="bg-[#F8FAFC] text-[#0F172A] antialiased">
@@ -69,20 +75,24 @@
         Email: <a href="mailto:vexqira@gmail.com" class="hover:text-white transition">vexqira@gmail.com</a>
       </span>
       <span class="hidden md:inline text-slate-600">|</span>
-      <a href="https://wa.me/917499320493?text=Hi%20Vexqira,%20I%20want%20a%20free%20AI%20demo" target="_blank" class="text-[#10B981] font-semibold hover:underline inline-flex items-center gap-1">
+      <span class="inline-flex items-center gap-1.5 text-amber-300 text-xs font-semibold bg-amber-400/10 px-2 py-0.5 rounded border border-amber-400/20">
+        🛡️ 7-Day Zero-Risk Founding Client Guarantee
+      </span>
+      <span class="hidden md:inline text-slate-600">|</span>
+      <a href="https://wa.me/917499320493?text=Hi%20Vexqira,%20I%20want%20to%20book%20a%20free%2010-min%20AI%20demo" target="_blank" class="text-[#10B981] font-semibold hover:underline inline-flex items-center gap-1">
         <span>Chat on WhatsApp</span> &rarr;
       </a>
     </div>
   </div>
 
   <!-- STICKY HEADER -->
-  <header class="sticky top-0 z-50 bg-[#0F172A]/95 backdrop-blur-md border-b border-slate-800">
+  <header class="sticky top-0 z-40 bg-[#0F172A]/95 backdrop-blur-md border-b border-slate-800">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
       
       <!-- LOGO -->
       <a href="#" class="flex items-center gap-3.5 group">
         <div class="relative w-12 h-12 rounded-full p-0.5 bg-gradient-to-tr from-cyan-500 via-indigo-500 to-purple-600 shadow-lg shadow-indigo-500/20 overflow-hidden shrink-0 group-hover:scale-105 transition duration-200">
-          <img src="/vexqira-logo.jpg" alt="Vexqira AI Solutions Official Logo" class="w-full h-full object-cover rounded-full bg-black" referrerPolicy="no-referrer" />
+          <img src="/vexqira-logo.jpg" alt="Vexqira AI Solutions Official Logo" class="w-full h-full object-cover rounded-full bg-black" onerror="this.src='vexqira-logo.jpg'" referrerPolicy="no-referrer" />
         </div>
         <div>
           <div class="flex items-center gap-2">
@@ -94,18 +104,19 @@
       </a>
 
       <!-- DESKTOP NAV -->
-      <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-300">
+      <nav class="hidden md:flex items-center gap-6 text-sm font-medium text-slate-300">
         <a href="#features" class="hover:text-white transition-colors">Features</a>
-        <a href="#demo" class="hover:text-white transition-colors">Interactive Demo</a>
+        <a href="#demo" class="hover:text-white transition-colors">Live Demo</a>
+        <a href="#photos" class="hover:text-white transition-colors">Photo</a>
+        <a href="#video-showcase" class="hover:text-white transition-colors">Video</a>
         <a href="#process" class="hover:text-white transition-colors">How It Works</a>
-        <a href="#pricing" class="hover:text-white transition-colors">Pricing</a>
+        <a href="#pricing" class="hover:text-white transition-colors">Pricing & Guarantee</a>
         <a href="#faq" class="hover:text-white transition-colors">FAQs</a>
-        <a href="#contact" class="hover:text-white transition-colors">Contact</a>
       </nav>
 
       <!-- CTA BUTTON & MOBILE TOGGLE -->
-      <div class="flex items-center gap-4">
-        <a href="https://wa.me/917499320493?text=Hi%20Vexqira,%20I%20want%20a%20free%20AI%20demo" target="_blank"
+      <div class="flex items-center gap-3">
+        <a href="https://wa.me/917499320493?text=Hi%20Vexqira,%20I%20want%20to%20book%20a%20free%2010-min%20AI%20demo" target="_blank"
            class="inline-flex items-center gap-2 bg-[#10B981] hover:bg-[#059669] text-white px-5 py-2.5 rounded-xl font-semibold text-sm transition-all duration-200 shadow-lg shadow-emerald-500/25 hover:shadow-emerald-500/40 transform hover:-translate-y-0.5">
           <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24">
             <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766 0-3.18-2.586-5.771-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.299.144.347.491 1.2.534 1.288.043.088.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.353.101.173.449.741.963 1.2 1.07.957 1.637 1.277 1.869 1.393.231.116.368.101.505-.058.138-.159.592-.693.751-.931.159-.238.318-.202.534-.116.217.087 1.372.647 1.609.765.237.118.396.176.454.275.058.099.058.577-.086.982z"/>
@@ -128,9 +139,11 @@
     <!-- MOBILE DRAWER -->
     <div id="mobile-menu" class="hidden md:hidden bg-[#0F172A] border-b border-slate-800 px-4 pt-2 pb-6 space-y-3">
       <a href="#features" class="block py-2 text-slate-300 hover:text-white font-medium mobile-nav-link">Features</a>
-      <a href="#demo" class="block py-2 text-slate-300 hover:text-white font-medium mobile-nav-link">Interactive Demo</a>
+      <a href="#demo" class="block py-2 text-slate-300 hover:text-white font-medium mobile-nav-link">Live Interactive Demo</a>
+      <a href="#photos" class="block py-2 text-slate-300 hover:text-white font-medium mobile-nav-link">Photo</a>
+      <a href="#video-showcase" class="block py-2 text-slate-300 hover:text-white font-medium mobile-nav-link">Video</a>
       <a href="#process" class="block py-2 text-slate-300 hover:text-white font-medium mobile-nav-link">How It Works</a>
-      <a href="#pricing" class="block py-2 text-slate-300 hover:text-white font-medium mobile-nav-link">Pricing</a>
+      <a href="#pricing" class="block py-2 text-slate-300 hover:text-white font-medium mobile-nav-link">Pricing & 7-Day Guarantee</a>
       <a href="#faq" class="block py-2 text-slate-300 hover:text-white font-medium mobile-nav-link">FAQs</a>
       <a href="#contact" class="block py-2 text-slate-300 hover:text-white font-medium mobile-nav-link">Contact</a>
       <div class="pt-3 border-t border-slate-800 space-y-2 text-xs text-slate-300">
@@ -138,7 +151,7 @@
         <div>Email: <a href="mailto:vexqira@gmail.com" class="text-white font-semibold">vexqira@gmail.com</a></div>
       </div>
       <div class="pt-2">
-        <a href="https://wa.me/917499320493?text=Hi%20Vexqira,%20I%20want%20a%20free%20AI%20demo" target="_blank"
+        <a href="https://wa.me/917499320493?text=Hi%20Vexqira,%20I%20want%20to%20book%20a%20free%2010-min%20AI%20demo" target="_blank"
            class="w-full flex items-center justify-center gap-2 bg-[#10B981] hover:bg-[#059669] text-white py-3 rounded-xl font-semibold text-sm">
           <span>Book WhatsApp Demo</span>
         </a>
@@ -174,25 +187,29 @@
               Turn WhatsApp messages, website inquiries, and after-hours calls into <strong class="text-white font-semibold">confirmed appointments 24/7</strong>. Built specifically for local clinics, salons, and real estate agencies.
             </p>
 
-            <!-- DUAL ACTION BUTTONS -->
-            <div class="mt-8 sm:mt-10 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
+            <!-- TRIPLE ACTION BUTTONS (DEMO, VIDEO & PRICING) -->
+            <div class="mt-8 sm:mt-10 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-3.5">
               <a href="#demo"
-                 class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-[#10B981] hover:bg-[#059669] text-white px-8 py-4 rounded-xl font-bold text-base transition-all duration-200 shadow-xl shadow-emerald-500/25 hover:shadow-emerald-500/40 transform hover:-translate-y-0.5">
+                 class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-[#10B981] hover:bg-[#059669] text-white px-7 py-4 rounded-xl font-bold text-base transition-all duration-200 shadow-xl shadow-emerald-500/25 hover:shadow-emerald-500/40 transform hover:-translate-y-0.5">
                 <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
                 </svg>
                 <span>Try Live Demo</span>
               </a>
 
+              <button type="button" onclick="scrollToVideoAndPlay()"
+                 class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-slate-800/90 hover:bg-slate-700 text-white border border-slate-700 hover:border-emerald-500/50 px-6 py-4 rounded-xl font-semibold text-base transition-all duration-200">
+                <span class="w-6 h-6 rounded-full bg-red-500/20 text-red-400 flex items-center justify-center text-xs">▶</span>
+                <span>Watch 60-Sec Video</span>
+              </button>
+
               <a href="#pricing"
-                 class="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-slate-800/90 hover:bg-slate-700 text-white border border-slate-700 px-8 py-4 rounded-xl font-semibold text-base transition-all duration-200">
-                <span>View Pricing</span>
-                <span class="text-xs bg-emerald-500/20 text-[#10B981] px-2 py-0.5 rounded border border-emerald-500/30">From ₹1,999/mo</span>
+                 class="w-full sm:w-auto inline-flex items-center justify-center gap-2 text-slate-300 hover:text-white px-4 py-4 font-medium text-sm transition">
+                <span>Plans from ₹1,999/mo</span> &rarr;
               </a>
             </div>
 
-            <!-- TRUST METRICS ROW -->
+            <!-- TRUST METRICS & GUARANTEE ROW -->
             <div class="mt-10 pt-8 border-t border-slate-800/80 grid grid-cols-3 gap-4 max-w-lg mx-auto lg:mx-0 text-center lg:text-left">
               <div>
                 <p class="text-xl sm:text-2xl font-bold text-white">48 Hours</p>
@@ -203,91 +220,250 @@
                 <p class="text-xs text-slate-400 mt-1">Instant Replies</p>
               </div>
               <div>
-                <p class="text-xl sm:text-2xl font-bold text-white">0% Tech</p>
-                <p class="text-xs text-slate-400 mt-1">Hassle for Staff</p>
+                <p class="text-xl sm:text-2xl font-bold text-amber-300">7-Day</p>
+                <p class="text-xs text-slate-400 mt-1">Zero-Risk Guarantee</p>
               </div>
             </div>
           </div>
 
-          <!-- RIGHT INTERACTIVE MOCK WHATSAPP PREVIEW -->
+          <!-- RIGHT HERO VISUAL: 4-VIEW CONTAINER (SIMULATOR, VIDEO, CLINIC PHOTO, MOCKUP) -->
           <div class="lg:col-span-5" id="demo">
-            <div class="relative max-w-sm mx-auto bg-slate-900 rounded-3xl p-3 shadow-2xl border-4 border-slate-800">
+            <div class="relative max-w-sm sm:max-w-md mx-auto bg-slate-900 rounded-3xl p-3 shadow-2xl border-4 border-slate-800">
               
-              <!-- PHONE HEADER -->
-              <div class="bg-[#075E54] text-white p-3.5 rounded-2xl flex items-center justify-between shadow-sm">
-                <div class="flex items-center gap-3">
-                  <div class="relative">
-                    <div class="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center font-bold text-sm overflow-hidden">
-                      <img src="/vexqira-logo.jpg" alt="Vexqira Avatar" class="w-full h-full object-cover" referrerPolicy="no-referrer" />
+              <!-- VIEW SELECTOR TABS -->
+              <div class="flex items-center justify-between bg-slate-950 p-1.5 rounded-2xl mb-3 border border-slate-800 text-[11px] font-semibold gap-1">
+                <button type="button" id="tab-simulator-btn" onclick="switchHeroView('simulator')"
+                        class="flex-1 py-1.5 px-1 rounded-xl text-center bg-slate-800 text-white transition flex items-center justify-center gap-1 shadow-sm">
+                  <span>📱 Chat</span>
+                </button>
+                <button type="button" id="tab-video-btn" onclick="switchHeroView('video')"
+                        class="flex-1 py-1.5 px-1 rounded-xl text-center text-slate-400 hover:text-white transition flex items-center justify-center gap-1">
+                  <span class="w-1.5 h-1.5 rounded-full bg-red-500 animate-pulse"></span>
+                  <span>🎬 Video</span>
+                </button>
+                <button type="button" id="tab-client-btn" onclick="switchHeroView('client')"
+                        class="flex-1 py-1.5 px-1 rounded-xl text-center text-slate-400 hover:text-white transition flex items-center justify-center gap-1">
+                  <span>📷 Photo</span>
+                </button>
+                <button type="button" id="tab-mockup-btn" onclick="switchHeroView('mockup')"
+                        class="flex-1 py-1.5 px-1 rounded-xl text-center text-slate-400 hover:text-white transition flex items-center justify-center gap-1">
+                  <span>🖼️ Mockup</span>
+                </button>
+              </div>
+
+              <!-- 1. LIVE SIMULATOR VIEW (DEFAULT) -->
+              <div id="hero-view-simulator">
+                <!-- PHONE HEADER -->
+                <div class="bg-[#075E54] text-white p-3.5 rounded-2xl flex items-center justify-between shadow-sm">
+                  <div class="flex items-center gap-3">
+                    <div class="relative">
+                      <div class="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center font-bold text-sm overflow-hidden">
+                        <img src="/vexqira-logo.jpg" alt="Vexqira Avatar" class="w-full h-full object-cover" onerror="this.src='vexqira-logo.jpg'" referrerPolicy="no-referrer" />
+                      </div>
+                      <span class="w-3 h-3 bg-[#10B981] border-2 border-[#075E54] rounded-full absolute bottom-0 right-0"></span>
                     </div>
-                    <span class="w-3 h-3 bg-[#10B981] border-2 border-[#075E54] rounded-full absolute bottom-0 right-0"></span>
+                    <div>
+                      <h3 class="font-bold text-sm leading-snug">Vexqira AI • Dental Care</h3>
+                      <p class="text-[11px] text-emerald-200">Online • Replies instantly</p>
+                    </div>
                   </div>
-                  <div>
-                    <h3 class="font-bold text-sm leading-snug">Vexqira AI • Dental Care</h3>
-                    <p class="text-[11px] text-emerald-200">Online • Typically replies instantly</p>
+                  <span class="text-xs bg-emerald-600/40 text-emerald-100 px-2.5 py-0.5 rounded-full font-medium">Interactive</span>
+                </div>
+
+                <!-- CHAT CONTAINER -->
+                <div class="bg-[#ECE5DD] p-3.5 min-h-[340px] max-h-[380px] overflow-y-auto space-y-3 rounded-xl mt-2 custom-scrollbar text-xs" id="chat-stream">
+                  <!-- Message 1 from AI -->
+                  <div class="flex justify-start">
+                    <div class="bg-white text-slate-800 p-3 rounded-2xl rounded-tl-none shadow-sm max-w-[85%]">
+                      <p class="font-medium text-slate-900">👋 Hello! Welcome to Apex Dental & Aesthetics.</p>
+                      <p class="mt-1 text-slate-600">I am your 24/7 assistant powered by Vexqira AI. How may I help you today?</p>
+                      <span class="block text-[10px] text-slate-400 text-right mt-1">10:41 AM</span>
+                    </div>
+                  </div>
+
+                  <!-- Message 2 from User -->
+                  <div class="flex justify-end">
+                    <div class="bg-[#DCF8C6] text-slate-800 p-3 rounded-2xl rounded-tr-none shadow-sm max-w-[85%]">
+                      <p>I have tooth sensitivity and need an appointment tomorrow evening.</p>
+                      <span class="block text-[10px] text-slate-500 text-right mt-1">10:42 AM • ✓✓</span>
+                    </div>
+                  </div>
+
+                  <!-- Message 3 from AI -->
+                  <div class="flex justify-start">
+                    <div class="bg-white text-slate-800 p-3 rounded-2xl rounded-tl-none shadow-sm max-w-[85%]">
+                      <p class="font-semibold text-[#075E54]">Dr. Sharma has 2 open slots tomorrow:</p>
+                      <ul class="mt-1.5 space-y-1 text-slate-700">
+                        <li>• <strong>Slot A:</strong> 5:15 PM</li>
+                        <li>• <strong>Slot B:</strong> 6:30 PM</li>
+                      </ul>
+                      <p class="mt-2 text-slate-600">Which time works best for you?</p>
+                      <span class="block text-[10px] text-slate-400 text-right mt-1">10:42 AM</span>
+                    </div>
+                  </div>
+
+                  <!-- Dynamic Message Appender Container -->
+                  <div id="dynamic-chat-content" class="space-y-3"></div>
+                </div>
+
+                <!-- INTERACTIVE PROMPT CHIPS -->
+                <div class="p-2.5 bg-slate-800 rounded-xl mt-2">
+                  <p class="text-[11px] text-slate-400 mb-2 font-medium">Click a prompt to test instant automated reply:</p>
+                  <div class="flex flex-wrap gap-1.5" id="chat-prompts">
+                    <button type="button" onclick="simulateChat('Book 5:15 PM slot for teeth checkup', 'Super! Your slot for tomorrow at 5:15 PM with Dr. Sharma is locked. A calendar invite & WhatsApp reminder have been scheduled.')"
+                            class="bg-slate-700 hover:bg-slate-600 text-white text-[11px] px-2.5 py-1.5 rounded-lg border border-slate-600 transition">
+                      👉 Book 5:15 PM Slot
+                    </button>
+                    <button type="button" onclick="simulateChat('What is the consultation fee?', 'Consultation with Dr. Sharma is ₹500, which includes digital X-Ray assessment.')"
+                            class="bg-slate-700 hover:bg-slate-600 text-white text-[11px] px-2.5 py-1.5 rounded-lg border border-slate-600 transition">
+                      💰 Consultation Fee?
+                    </button>
+                    <button type="button" onclick="simulateChat('Where is your clinic located?', 'We are at 2nd Floor, Apex Plaza, MG Road. Free patient parking available.')"
+                            class="bg-slate-700 hover:bg-slate-600 text-white text-[11px] px-2.5 py-1.5 rounded-lg border border-slate-600 transition">
+                      📍 Clinic Location?
+                    </button>
                   </div>
                 </div>
-                <span class="text-xs bg-emerald-600/40 text-emerald-100 px-2 py-0.5 rounded-full font-medium">Demo</span>
               </div>
 
-              <!-- CHAT CONTAINER -->
-              <div class="bg-[#ECE5DD] p-3.5 min-h-[360px] max-h-[400px] overflow-y-auto space-y-3 rounded-xl mt-2 custom-scrollbar text-xs" id="chat-stream">
-                <!-- Message 1 from AI -->
-                <div class="flex justify-start">
-                  <div class="bg-white text-slate-800 p-3 rounded-2xl rounded-tl-none shadow-sm max-w-[85%]">
-                    <p class="font-medium text-slate-900">👋 Hello! Welcome to Apex Dental & Aesthetics.</p>
-                    <p class="mt-1 text-slate-600">I am your 24/7 assistant powered by Vexqira AI. How may I help you today?</p>
-                    <span class="block text-[10px] text-slate-400 text-right mt-1">10:41 AM</span>
-                  </div>
+              <!-- 2. PHOTO VIEW (CLINIC, SALON & REAL ESTATE CLIENT DEPLOYMENTS) -->
+              <div id="hero-view-client" class="hidden">
+                <!-- Mini Photo Switcher Pills -->
+                <div class="flex items-center justify-center gap-1.5 mb-2">
+                  <button type="button" id="hero-photo-clinic-btn" onclick="selectHeroPhoto('clinic')"
+                          class="px-2 py-0.5 rounded-lg text-[10px] font-bold bg-[#10B981] text-white transition">
+                    🏥 Clinic
+                  </button>
+                  <button type="button" id="hero-photo-salon-btn" onclick="selectHeroPhoto('salon')"
+                          class="px-2 py-0.5 rounded-lg text-[10px] font-bold bg-slate-800 text-slate-300 hover:text-white transition">
+                    💇 Salon
+                  </button>
+                  <button type="button" id="hero-photo-re-btn" onclick="selectHeroPhoto('re')"
+                          class="px-2 py-0.5 rounded-lg text-[10px] font-bold bg-slate-800 text-slate-300 hover:text-white transition">
+                    🏢 Real Estate
+                  </button>
                 </div>
 
-                <!-- Message 2 from User -->
-                <div class="flex justify-end">
-                  <div class="bg-[#DCF8C6] text-slate-800 p-3 rounded-2xl rounded-tr-none shadow-sm max-w-[85%]">
-                    <p>I have tooth sensitivity and need an appointment tomorrow evening.</p>
-                    <span class="block text-[10px] text-slate-500 text-right mt-1">10:42 AM • ✓✓</span>
+                <div class="relative rounded-2xl overflow-hidden bg-slate-950 border border-slate-800 aspect-[4/3] flex items-center justify-center group">
+                  <img id="hero-client-img" src="/clinic-doctor-tablet.jpg" alt="Doctor and Patient reviewing Vexqira Bookings on tablet at clinic reception" 
+                       class="w-full h-full object-cover transition duration-300 group-hover:scale-105"
+                       onerror="this.src='/image_1789891984666322.png'; this.onerror=function(){this.src='clinic-doctor-tablet.jpg';}"
+                       referrerPolicy="no-referrer" />
+                  
+                  <!-- Bottom Info Badge Overlay -->
+                  <div class="absolute inset-x-0 bottom-0 p-3 bg-gradient-to-t from-slate-950/95 via-slate-950/70 to-transparent flex items-end justify-between">
+                    <div>
+                      <span id="hero-client-tag" class="text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 rounded bg-emerald-500/20 text-[#10B981] border border-emerald-500/30">Verified Clinic Client</span>
+                      <p id="hero-client-title" class="text-xs font-bold text-white mt-1">Dr. Sharma • Vexqira Bookings Tablet</p>
+                      <p id="hero-client-desc" class="text-[10px] text-slate-300">Synchronized with clinic Google Calendar</p>
+                    </div>
+                    <a href="#photos" class="text-[10px] bg-slate-800 hover:bg-slate-700 text-slate-200 px-2 py-1 rounded-lg border border-slate-700 transition">
+                      View Photos &rarr;
+                    </a>
                   </div>
                 </div>
-
-                <!-- Message 3 from AI -->
-                <div class="flex justify-start">
-                  <div class="bg-white text-slate-800 p-3 rounded-2xl rounded-tl-none shadow-sm max-w-[85%]">
-                    <p class="font-semibold text-[#075E54]">Dr. Sharma has 2 open slots tomorrow:</p>
-                    <ul class="mt-1.5 space-y-1 text-slate-700">
-                      <li>• <strong>Slot A:</strong> 5:15 PM</li>
-                      <li>• <strong>Slot B:</strong> 6:30 PM</li>
-                    </ul>
-                    <p class="mt-2 text-slate-600">Which time works best for you?</p>
-                    <span class="block text-[10px] text-slate-400 text-right mt-1">10:42 AM</span>
-                  </div>
+                <div class="mt-2.5 p-2 bg-slate-800/80 rounded-xl text-center">
+                  <p id="hero-client-stat" class="text-xs text-slate-300 font-medium">✨ <strong>38+ appointments</strong> captured each month on complete autopilot.</p>
                 </div>
-
-                <!-- Dynamic Message Appender Container -->
-                <div id="dynamic-chat-content" class="space-y-3"></div>
               </div>
 
-              <!-- INTERACTIVE PROMPT CHIPS -->
-              <div class="p-2.5 bg-slate-800 rounded-xl mt-2">
-                <p class="text-[11px] text-slate-400 mb-2 font-medium">Click to test instant automated AI reply:</p>
-                <div class="flex flex-wrap gap-1.5" id="chat-prompts">
-                  <button type="button" onclick="simulateChat('Book 5:15 PM slot for teeth checkup', 'Super! Your slot for tomorrow at 5:15 PM with Dr. Sharma is locked. A calendar invite & WhatsApp reminder have been scheduled.')"
-                          class="bg-slate-700 hover:bg-slate-600 text-white text-[11px] px-2.5 py-1.5 rounded-lg border border-slate-600 transition">
-                    👉 Book 5:15 PM Slot
-                  </button>
-                  <button type="button" onclick="simulateChat('What is the consultation fee?', 'Consultation with Dr. Sharma is ₹500, which includes digital X-Ray assessment.')"
-                          class="bg-slate-700 hover:bg-slate-600 text-white text-[11px] px-2.5 py-1.5 rounded-lg border border-slate-600 transition">
-                    💰 Consultation Fee?
-                  </button>
-                  <button type="button" onclick="simulateChat('Where is your clinic located?', 'We are at 2nd Floor, Apex Plaza, MG Road. Free patient parking available.')"
-                          class="bg-slate-700 hover:bg-slate-600 text-white text-[11px] px-2.5 py-1.5 rounded-lg border border-slate-600 transition">
-                    📍 Clinic Location?
-                  </button>
+              <!-- 3. VIDEO VIEW -->
+              <div id="hero-view-video" class="hidden">
+                <div class="relative rounded-2xl overflow-hidden bg-slate-950 border border-slate-800 aspect-[4/3] flex flex-col justify-between p-3.5 group">
+                  <!-- Video background poster -->
+                  <img src="/clinic-night-desk.jpg" alt="Clinic Reception Desk" 
+                       class="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:opacity-75 transition"
+                       onerror="this.src='/video-poster.jpg'; this.onerror=function(){this.src='clinic-night-desk.jpg';}"
+                       referrerPolicy="no-referrer" />
+                  
+                  <!-- Gradient Overlay -->
+                  <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-slate-950/80"></div>
+
+                  <!-- Top Pill -->
+                  <div class="relative z-10 flex items-center justify-between">
+                    <span class="text-[10px] font-bold px-2 py-0.5 rounded-full bg-red-500/20 text-red-400 border border-red-500/30 flex items-center gap-1">
+                      <span class="w-1.5 h-1.5 rounded-full bg-red-500 animate-ping"></span>
+                      <span>Live Video Walkthrough</span>
+                    </span>
+                    <span class="text-[10px] font-mono text-slate-300 bg-slate-900/80 px-2 py-0.5 rounded border border-slate-700">0:18 Demo</span>
+                  </div>
+
+                  <!-- Center Animated Notification Preview -->
+                  <div class="relative z-10 space-y-2 max-w-[90%] mx-auto my-auto text-left w-full">
+                    <!-- Inquiry Message -->
+                    <div class="bg-slate-900/90 backdrop-blur-md p-2.5 rounded-xl border border-slate-700 text-[11px] shadow-lg">
+                      <div class="flex items-center justify-between text-[9px] text-slate-400 mb-0.5">
+                        <span class="font-bold text-slate-300">Incoming Inquiry</span>
+                        <span>11:30 PM</span>
+                      </div>
+                      <p class="text-white font-medium">"Hi, are you available for tomorrow?"</p>
+                    </div>
+                    
+                    <!-- AI Reply Bubble -->
+                    <div class="bg-emerald-950/90 backdrop-blur-md p-2.5 rounded-xl border border-emerald-500/50 text-[11px] shadow-lg ml-3">
+                      <div class="flex items-center justify-between text-[9px] text-emerald-300 mb-0.5">
+                        <span class="font-bold">⚡ Vexqira AI • Replied in 1.2s</span>
+                        <span>11:30 PM</span>
+                      </div>
+                      <p class="text-emerald-100">"Your slot is booked for tomorrow at 11:00 AM! Calendar invite scheduled."</p>
+                    </div>
+                  </div>
+
+                  <!-- Bottom Action Button -->
+                  <div class="relative z-10 text-center pt-1">
+                    <button type="button" onclick="scrollToVideoAndPlay()" 
+                            class="inline-flex items-center gap-2 bg-red-600 hover:bg-red-500 text-white px-4 py-2 rounded-xl font-bold text-xs transition shadow-lg shadow-red-500/30">
+                      <span>▶ Watch Video</span>
+                    </button>
+                  </div>
                 </div>
+                <p class="text-center text-[11px] text-slate-400 mt-2">Automated 24/7 triaging & calendar locking in real time.</p>
+              </div>
+
+              <!-- 4. HERO IMAGE MOCKUP VIEW WITH AUTOMATED CSS FALLBACK -->
+              <div id="hero-view-mockup" class="hidden">
+                <div class="relative rounded-2xl overflow-hidden bg-slate-950 border border-slate-800 aspect-[4/3] flex items-center justify-center">
+                  <!-- Embedded hero mockup image with automated fallback -->
+                  <img id="hero-mockup-img" src="/hero-mockup.png" alt="Vexqira AI Automated WhatsApp Smartphone Mockup" 
+                       class="w-full h-full object-cover"
+                       onerror="this.src='/hero-mockup.jpg'; this.onerror=function(){this.style.display='none'; document.getElementById('mockup-glass-fallback').style.display='flex';}"
+                       referrerPolicy="no-referrer" />
+
+                  <!-- CSS Glassmorphic Fallback Card (triggers if image is missing) -->
+                  <div id="mockup-glass-fallback" class="hidden absolute inset-0 p-6 flex-col justify-between glass-card">
+                    <div class="flex items-center justify-between">
+                      <div class="flex items-center gap-2">
+                        <div class="w-8 h-8 rounded-full bg-emerald-500/20 text-[#10B981] flex items-center justify-center font-bold text-xs">V</div>
+                        <div>
+                          <p class="text-xs font-bold text-white">Vexqira AI Assistant</p>
+                          <p class="text-[10px] text-emerald-400">Live 24/7 Autopilot</p>
+                        </div>
+                      </div>
+                      <span class="text-[10px] bg-slate-800 text-slate-300 px-2 py-0.5 rounded border border-slate-700">Verified</span>
+                    </div>
+
+                    <div class="space-y-2.5 my-auto">
+                      <div class="bg-slate-800/90 p-3 rounded-xl border border-slate-700 text-xs">
+                        <p class="text-slate-400 text-[10px]">10:48 PM • Late Night Inquiry</p>
+                        <p class="text-white mt-1">"Hi doctor, can I book an appointment tomorrow?"</p>
+                      </div>
+                      <div class="bg-emerald-900/40 p-3 rounded-xl border border-emerald-500/40 text-xs ml-4">
+                        <p class="text-emerald-400 text-[10px]">10:48 PM • Replied in 1.4s</p>
+                        <p class="text-emerald-100 mt-1">"Slot confirmed for 5:15 PM! Calendar invite added."</p>
+                      </div>
+                    </div>
+
+                    <div class="text-center">
+                      <span class="text-[11px] text-slate-400">Zero staff overhead • 100% automated booking</span>
+                    </div>
+                  </div>
+                </div>
+                <p class="text-center text-xs text-slate-400 mt-3">Smart phone mockup with real-time WhatsApp sync.</p>
               </div>
 
               <!-- WHATSAPP DIRECT LINK BAR -->
-              <div class="mt-2 text-center">
-                <a href="https://wa.me/917499320493?text=Hi%20Vexqira,%20I%20want%20a%20free%20AI%20demo" target="_blank"
+              <div class="mt-3 text-center">
+                <a href="https://wa.me/917499320493?text=Hi%20Vexqira,%20I%20want%20to%20see%20a%20live%20AI%20booking%20demo" target="_blank"
                    class="text-xs text-[#10B981] hover:text-emerald-400 font-semibold inline-flex items-center gap-1.5">
                   <span>Want this live on your number? Chat on WhatsApp</span>
                   <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
@@ -440,6 +616,564 @@
       </div>
     </section>
 
+    <!-- REAL CLIENT RESULTS & PHOTO SHOWCASE -->
+    <section id="photos" class="py-20 lg:py-28 bg-white border-b border-slate-200 relative overflow-hidden">
+      <!-- Secondary Anchor for backwards compatibility -->
+      <span id="clinic-results" class="relative -top-24"></span>
+
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <!-- SECTION HEADER -->
+        <div class="text-center max-w-3xl mx-auto mb-12">
+          <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-emerald-50 border border-emerald-200 text-[#047857] text-xs font-bold mb-4">
+            <span>📷 Photo Showcase</span>
+          </div>
+          <h2 class="text-3xl sm:text-4xl font-black text-slate-900 tracking-tight">
+            Real Deployments & Proven Business Results
+          </h2>
+          <p class="mt-4 text-base sm:text-lg text-slate-600">
+            See how local clinics, luxury salons, and real estate consultancies use Vexqira's automated WhatsApp assistant to capture bookings and eliminate phone tag.
+          </p>
+
+          <!-- INDUSTRY PHOTO SELECTOR TABS -->
+          <div class="mt-8 inline-flex p-1.5 rounded-2xl bg-slate-100 border border-slate-200 text-xs font-bold gap-1 shadow-inner">
+            <button type="button" id="photo-tab-clinic" onclick="switchPhotoTab('clinic')"
+                    class="px-4 py-2 rounded-xl bg-white text-slate-900 shadow-sm transition flex items-center gap-2">
+              <span>🏥 Healthcare Clinic</span>
+            </button>
+            <button type="button" id="photo-tab-salon" onclick="switchPhotoTab('salon')"
+                    class="px-4 py-2 rounded-xl text-slate-600 hover:text-slate-900 transition flex items-center gap-2">
+              <span>💇 Luxury Salon & Spa</span>
+            </button>
+            <button type="button" id="photo-tab-re" onclick="switchPhotoTab('re')"
+                    class="px-4 py-2 rounded-xl text-slate-600 hover:text-slate-900 transition flex items-center gap-2">
+              <span>🏢 Real Estate</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- 1. CLINIC SHOWCASE PANEL -->
+        <div id="photo-panel-clinic" class="photo-panel grid lg:grid-cols-12 gap-10 items-center">
+          <!-- LEFT: LARGE DOCTOR & PATIENT TABLET PHOTO -->
+          <div class="lg:col-span-7 relative">
+            <div class="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-slate-100 group bg-slate-900 aspect-[4/3] sm:aspect-auto">
+              <img src="/clinic-doctor-tablet.jpg" 
+                   alt="Dr. Sharma and patient reviewing confirmed appointment schedule on Vexqira Bookings tablet" 
+                   class="w-full h-auto object-cover transform transition duration-500 group-hover:scale-102"
+                   onerror="this.src='/image_1789891984666322.png'; this.onerror=function(){this.src='clinic-doctor-tablet.jpg';}"
+                   referrerPolicy="no-referrer" />
+
+              <div class="absolute top-4 left-4 bg-slate-950/80 backdrop-blur-md px-3.5 py-2 rounded-2xl border border-slate-700/80 shadow-lg flex items-center gap-2.5">
+                <span class="w-2.5 h-2.5 rounded-full bg-[#10B981] animate-pulse"></span>
+                <div>
+                  <p class="text-xs font-bold text-white leading-tight">Vexqira Bookings Tablet</p>
+                  <p class="text-[10px] text-emerald-300">Live Google Calendar Sync</p>
+                </div>
+              </div>
+
+              <div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-slate-950 via-slate-950/80 to-transparent p-5 sm:p-6 text-white">
+                <p class="text-sm sm:text-base font-bold text-white">Apex Dental & Aesthetics • Reception Desk</p>
+                <p class="text-xs sm:text-sm text-slate-300 mt-1">
+                  "Every WhatsApp appointment booked by AI automatically syncs to the doctor's tablet and sends reminders to patients."
+                </p>
+              </div>
+            </div>
+
+            <div class="mt-4 flex flex-wrap items-center justify-between gap-3 text-xs text-slate-500">
+              <span class="flex items-center gap-1.5 font-medium">
+                <svg class="w-4 h-4 text-[#10B981]" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+                Real Clinic Tablet Schedule
+              </span>
+              <span class="flex items-center gap-1.5 font-medium">
+                <svg class="w-4 h-4 text-[#10B981]" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+                Zero Double Bookings
+              </span>
+              <span class="flex items-center gap-1.5 font-medium">
+                <svg class="w-4 h-4 text-[#10B981]" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+                24/7 Patient Self-Booking
+              </span>
+            </div>
+          </div>
+
+          <!-- RIGHT: CLINIC METRICS & TESTIMONIAL -->
+          <div class="lg:col-span-5 space-y-6">
+            <div class="grid grid-cols-2 gap-4">
+              <div class="bg-slate-50 p-4 rounded-2xl border border-slate-200">
+                <span class="text-3xl sm:text-4xl font-black text-[#10B981]">+38</span>
+                <p class="text-xs font-bold text-slate-800 mt-1">Monthly New Patients</p>
+                <p class="text-[11px] text-slate-500 mt-0.5">Captured after closing hours (8 PM – 9 AM)</p>
+              </div>
+              <div class="bg-slate-50 p-4 rounded-2xl border border-slate-200">
+                <span class="text-3xl sm:text-4xl font-black text-slate-900">&lt; 2s</span>
+                <p class="text-xs font-bold text-slate-800 mt-1">WhatsApp Response</p>
+                <p class="text-[11px] text-slate-500 mt-0.5">Instant slot confirmation & qualification</p>
+              </div>
+              <div class="bg-slate-50 p-4 rounded-2xl border border-slate-200">
+                <span class="text-3xl sm:text-4xl font-black text-slate-900">85%</span>
+                <p class="text-xs font-bold text-slate-800 mt-1">Fewer No-Shows</p>
+                <p class="text-[11px] text-slate-500 mt-0.5">Automated 24h & 2h WhatsApp reminders</p>
+              </div>
+              <div class="bg-slate-50 p-4 rounded-2xl border border-slate-200">
+                <span class="text-3xl sm:text-4xl font-black text-[#10B981]">100%</span>
+                <p class="text-xs font-bold text-slate-800 mt-1">Calendar Sync</p>
+                <p class="text-[11px] text-slate-500 mt-0.5">Direct sync to reception & doctor's phone</p>
+              </div>
+            </div>
+
+            <div class="bg-gradient-to-br from-slate-900 to-slate-950 p-6 rounded-2xl border border-slate-800 text-white shadow-xl">
+              <div class="flex items-center gap-1 text-amber-400 mb-3 text-sm">
+                ★★★★★ <span class="text-xs text-slate-400 ml-1">Verified Case Study</span>
+              </div>
+              <p class="text-xs sm:text-sm text-slate-200 italic leading-relaxed">
+                "Before Vexqira, patients who texted us at 11 PM or early morning had to wait until reception opened at 9:30 AM. By then, half had already booked with another clinic. Now, Vexqira qualifies them, answers their fee questions, and books their slot straight onto our calendar. It’s like having an ultra-punctual receptionist who never sleeps."
+              </p>
+              <div class="mt-4 pt-4 border-t border-slate-800 flex items-center justify-between">
+                <div>
+                  <h4 class="text-xs font-bold text-white">Dr. Sharma, MD</h4>
+                  <p class="text-[11px] text-slate-400">Apex Dental & Aesthetic Clinic</p>
+                </div>
+                <span class="text-[10px] bg-emerald-500/20 text-[#10B981] px-2.5 py-1 rounded-full font-bold border border-emerald-500/30">Verified Client</span>
+              </div>
+            </div>
+
+            <div>
+              <a href="https://wa.me/917499320493?text=Hi%20Vexqira,%20I%20saw%20the%20clinic%20photo%20and%20want%20this%20for%20my%20practice" target="_blank"
+                 class="w-full inline-flex items-center justify-center gap-2.5 bg-[#10B981] hover:bg-[#059669] text-white py-3.5 px-6 rounded-xl font-bold text-sm shadow-lg shadow-emerald-500/20 transition">
+                <span>Deploy Clinic Booking System</span> &rarr;
+              </a>
+              <p class="text-center text-[11px] text-slate-500 mt-2">Backed by our 7-Day Zero-Risk Founding Client Guarantee.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. SALON & SPA SHOWCASE PANEL -->
+        <div id="photo-panel-salon" class="photo-panel hidden grid lg:grid-cols-12 gap-10 items-center">
+          <!-- LEFT: SALON RECEPTION & TABLET PHOTO -->
+          <div class="lg:col-span-7 relative">
+            <div class="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-slate-100 group bg-slate-900 aspect-[4/3] sm:aspect-auto">
+              <img src="/salon-spa-booking.jpg" 
+                   alt="Luxe Salon & Spa reception counter with client and receptionist booking styling slot on tablet" 
+                   class="w-full h-auto object-cover transform transition duration-500 group-hover:scale-102"
+                   onerror="this.src='/salon_spa_booking_1789893271666.jpg'; this.onerror=function(){this.src='salon-spa-booking.jpg';}"
+                   referrerPolicy="no-referrer" />
+
+              <div class="absolute top-4 left-4 bg-slate-950/80 backdrop-blur-md px-3.5 py-2 rounded-2xl border border-slate-700/80 shadow-lg flex items-center gap-2.5">
+                <span class="w-2.5 h-2.5 rounded-full bg-[#10B981] animate-pulse"></span>
+                <div>
+                  <p class="text-xs font-bold text-white leading-tight">Luxe Salon & Spa</p>
+                  <p class="text-[10px] text-emerald-300">Stylist Chair Allocation Live</p>
+                </div>
+              </div>
+
+              <div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-slate-950 via-slate-950/80 to-transparent p-5 sm:p-6 text-white">
+                <p class="text-sm sm:text-base font-bold text-white">Luxe Hair & Aesthetic Lounge • Reception</p>
+                <p class="text-xs sm:text-sm text-slate-300 mt-1">
+                  "Stylists stay focused on treatments while Vexqira takes appointments, collects service deposits, and handles rescheduling."
+                </p>
+              </div>
+            </div>
+
+            <div class="mt-4 flex flex-wrap items-center justify-between gap-3 text-xs text-slate-500">
+              <span class="flex items-center gap-1.5 font-medium">
+                <svg class="w-4 h-4 text-[#10B981]" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+                Per-Stylist Calendar Lock
+              </span>
+              <span class="flex items-center gap-1.5 font-medium">
+                <svg class="w-4 h-4 text-[#10B981]" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+                Instant Pricing & Menu Shares
+              </span>
+              <span class="flex items-center gap-1.5 font-medium">
+                <svg class="w-4 h-4 text-[#10B981]" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+                Zero Reception Distractions
+              </span>
+            </div>
+          </div>
+
+          <!-- RIGHT: SALON METRICS & TESTIMONIAL -->
+          <div class="lg:col-span-5 space-y-6">
+            <div class="grid grid-cols-2 gap-4">
+              <div class="bg-slate-50 p-4 rounded-2xl border border-slate-200">
+                <span class="text-3xl sm:text-4xl font-black text-[#10B981]">+45</span>
+                <p class="text-xs font-bold text-slate-800 mt-1">Weekend Bookings</p>
+                <p class="text-[11px] text-slate-500 mt-0.5">Automated booking during peak styling hours</p>
+              </div>
+              <div class="bg-slate-50 p-4 rounded-2xl border border-slate-200">
+                <span class="text-3xl sm:text-4xl font-black text-slate-900">&lt; 2s</span>
+                <p class="text-xs font-bold text-slate-800 mt-1">Menu & Rate Inquiry</p>
+                <p class="text-[11px] text-slate-500 mt-0.5">Answers pricing and service packages</p>
+              </div>
+              <div class="bg-slate-50 p-4 rounded-2xl border border-slate-200">
+                <span class="text-3xl sm:text-4xl font-black text-slate-900">92%</span>
+                <p class="text-xs font-bold text-slate-800 mt-1">Advance Token Sync</p>
+                <p class="text-[11px] text-slate-500 mt-0.5">Protects weekend peak chair availability</p>
+              </div>
+              <div class="bg-slate-50 p-4 rounded-2xl border border-slate-200">
+                <span class="text-3xl sm:text-4xl font-black text-[#10B981]">0 min</span>
+                <p class="text-xs font-bold text-slate-800 mt-1">Stylist Interruption</p>
+                <p class="text-[11px] text-slate-500 mt-0.5">Staff never stop midway during treatments</p>
+              </div>
+            </div>
+
+            <div class="bg-gradient-to-br from-slate-900 to-slate-950 p-6 rounded-2xl border border-slate-800 text-white shadow-xl">
+              <div class="flex items-center gap-1 text-amber-400 mb-3 text-sm">
+                ★★★★★ <span class="text-xs text-slate-400 ml-1">Verified Salon Partner</span>
+              </div>
+              <p class="text-xs sm:text-sm text-slate-200 italic leading-relaxed">
+                "During Saturday rush hours, our stylists are busy with hair spas and kerating treatments. When customers call, nobody could pick up. Vexqira stepped in and automated the whole appointment flow. Clients pick their stylist, confirm time, and get instant directions. We filled all 6 chairs every single weekend!"
+              </p>
+              <div class="mt-4 pt-4 border-t border-slate-800 flex items-center justify-between">
+                <div>
+                  <h4 class="text-xs font-bold text-white">Meera Kapoor</h4>
+                  <p class="text-[11px] text-slate-400">Founder, Luxe Hair Lounge</p>
+                </div>
+                <span class="text-[10px] bg-emerald-500/20 text-[#10B981] px-2.5 py-1 rounded-full font-bold border border-emerald-500/30">Verified Partner</span>
+              </div>
+            </div>
+
+            <div>
+              <a href="https://wa.me/917499320493?text=Hi%20Vexqira,%20I%20saw%20the%20salon%20photo%20and%20want%20this%20for%20my%20salon" target="_blank"
+                 class="w-full inline-flex items-center justify-center gap-2.5 bg-[#10B981] hover:bg-[#059669] text-white py-3.5 px-6 rounded-xl font-bold text-sm shadow-lg shadow-emerald-500/20 transition">
+                <span>Deploy Salon Booking System</span> &rarr;
+              </a>
+              <p class="text-center text-[11px] text-slate-500 mt-2">Customized for your salon services and stylist chairs.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. REAL ESTATE SHOWCASE PANEL -->
+        <div id="photo-panel-re" class="photo-panel hidden grid lg:grid-cols-12 gap-10 items-center">
+          <!-- LEFT: REAL ESTATE OFFICE PHOTO -->
+          <div class="lg:col-span-7 relative">
+            <div class="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-slate-100 group bg-slate-900 aspect-[4/3] sm:aspect-auto">
+              <img src="/realestate-booking.jpg" 
+                   alt="Real estate consultant and buyers reviewing WhatsApp property brochure and site visit booking" 
+                   class="w-full h-auto object-cover transform transition duration-500 group-hover:scale-102"
+                   onerror="this.src='/realestate_office_booking_1789893285723.jpg'; this.onerror=function(){this.src='realestate-booking.jpg';}"
+                   referrerPolicy="no-referrer" />
+
+              <div class="absolute top-4 left-4 bg-slate-950/80 backdrop-blur-md px-3.5 py-2 rounded-2xl border border-slate-700/80 shadow-lg flex items-center gap-2.5">
+                <span class="w-2.5 h-2.5 rounded-full bg-[#10B981] animate-pulse"></span>
+                <div>
+                  <p class="text-xs font-bold text-white leading-tight">Skyline Realty Group</p>
+                  <p class="text-[10px] text-emerald-300">Site-Visit Tour Schedule</p>
+                </div>
+              </div>
+
+              <div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-slate-950 via-slate-950/80 to-transparent p-5 sm:p-6 text-white">
+                <p class="text-sm sm:text-base font-bold text-white">Skyline Advisory & Realty • Consultation Desk</p>
+                <p class="text-xs sm:text-sm text-slate-300 mt-1">
+                  "Delivering project brochures and scheduling weekend property tours on WhatsApp within 40 seconds of inquiry."
+                </p>
+              </div>
+            </div>
+
+            <div class="mt-4 flex flex-wrap items-center justify-between gap-3 text-xs text-slate-500">
+              <span class="flex items-center gap-1.5 font-medium">
+                <svg class="w-4 h-4 text-[#10B981]" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+                Instant PDF Brochure Delivery
+              </span>
+              <span class="flex items-center gap-1.5 font-medium">
+                <svg class="w-4 h-4 text-[#10B981]" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+                Budget & Location Qualification
+              </span>
+              <span class="flex items-center gap-1.5 font-medium">
+                <svg class="w-4 h-4 text-[#10B981]" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+                Instant Agent WhatsApp Alert
+              </span>
+            </div>
+          </div>
+
+          <!-- RIGHT: REAL ESTATE METRICS & TESTIMONIAL -->
+          <div class="lg:col-span-5 space-y-6">
+            <div class="grid grid-cols-2 gap-4">
+              <div class="bg-slate-50 p-4 rounded-2xl border border-slate-200">
+                <span class="text-3xl sm:text-4xl font-black text-[#10B981]">3.4x</span>
+                <p class="text-xs font-bold text-slate-800 mt-1">Faster Site Tours</p>
+                <p class="text-[11px] text-slate-500 mt-0.5">Weekend tours booked immediately on WhatsApp</p>
+              </div>
+              <div class="bg-slate-50 p-4 rounded-2xl border border-slate-200">
+                <span class="text-3xl sm:text-4xl font-black text-slate-900">&lt; 2s</span>
+                <p class="text-xs font-bold text-slate-800 mt-1">Brochure Delivery</p>
+                <p class="text-[11px] text-slate-500 mt-0.5">Floor plans & pricing sent instantly</p>
+              </div>
+              <div class="bg-slate-50 p-4 rounded-2xl border border-slate-200">
+                <span class="text-3xl sm:text-4xl font-black text-slate-900">100%</span>
+                <p class="text-xs font-bold text-slate-800 mt-1">Qualified Leads</p>
+                <p class="text-[11px] text-slate-500 mt-0.5">Filters by budget, possession, and 2BHK/3BHK</p>
+              </div>
+              <div class="bg-slate-50 p-4 rounded-2xl border border-slate-200">
+                <span class="text-3xl sm:text-4xl font-black text-[#10B981]">24/7</span>
+                <p class="text-xs font-bold text-slate-800 mt-1">Ad Lead Capture</p>
+                <p class="text-[11px] text-slate-500 mt-0.5">Direct Meta & Google ad traffic conversion</p>
+              </div>
+            </div>
+
+            <div class="bg-gradient-to-br from-slate-900 to-slate-950 p-6 rounded-2xl border border-slate-800 text-white shadow-xl">
+              <div class="flex items-center gap-1 text-amber-400 mb-3 text-sm">
+                ★★★★★ <span class="text-xs text-slate-400 ml-1">Verified Real Estate Partner</span>
+              </div>
+              <p class="text-xs sm:text-sm text-slate-200 italic leading-relaxed">
+                "High-intent home buyers browse properties late in the evening. If an agent calls them the next afternoon, their interest has cooled down. Vexqira sends the approved project floor plans within 10 seconds and locks a weekend site visit before they browse competing builders. It doubled our site visit conversion rate."
+              </p>
+              <div class="mt-4 pt-4 border-t border-slate-800 flex items-center justify-between">
+                <div>
+                  <h4 class="text-xs font-bold text-white">Rajesh Malhotra</h4>
+                  <p class="text-[11px] text-slate-400">Principal Partner, Skyline Realty</p>
+                </div>
+                <span class="text-[10px] bg-emerald-500/20 text-[#10B981] px-2.5 py-1 rounded-full font-bold border border-emerald-500/30">Verified Partner</span>
+              </div>
+            </div>
+
+            <div>
+              <a href="https://wa.me/917499320493?text=Hi%20Vexqira,%20I%20saw%20the%20real%20estate%20photo%20and%20want%20this%20for%20my%20agency" target="_blank"
+                 class="w-full inline-flex items-center justify-center gap-2.5 bg-[#10B981] hover:bg-[#059669] text-white py-3.5 px-6 rounded-xl font-bold text-sm shadow-lg shadow-emerald-500/20 transition">
+                <span>Deploy Real Estate Lead Engine</span> &rarr;
+              </a>
+              <p class="text-center text-[11px] text-slate-500 mt-2">Connects to WhatsApp and syncs with your sales team CRM.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- VISUAL 3-PHOTO QUICK GALLERY STRIP -->
+        <div class="mt-16 pt-10 border-t border-slate-100">
+          <p class="text-xs font-bold uppercase tracking-widest text-slate-400 text-center mb-6">Explore Client Deployment Photos</p>
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+            <!-- Photo 1 Card -->
+            <button type="button" onclick="switchPhotoTab('clinic')" 
+                    class="text-left group bg-slate-50 p-3 rounded-2xl border border-slate-200 hover:border-emerald-500 hover:shadow-lg transition">
+              <div class="aspect-[4/3] rounded-xl overflow-hidden bg-slate-900 mb-3 relative">
+                <img src="/clinic-doctor-tablet.jpg" alt="Clinic photo" class="w-full h-full object-cover group-hover:scale-105 transition"
+                     onerror="this.src='/image_1789891984666322.png'; this.onerror=function(){this.src='clinic-doctor-tablet.jpg';}" referrerPolicy="no-referrer" />
+                <span class="absolute top-2 left-2 text-[10px] font-bold bg-slate-900/80 text-white px-2 py-0.5 rounded-md">Healthcare Clinic</span>
+              </div>
+              <p class="text-xs font-bold text-slate-800 group-hover:text-[#10B981] transition">Apex Dental Clinic • Dr. Sharma</p>
+              <p class="text-[11px] text-slate-500 mt-0.5">Google Calendar tablet sync & +38 monthly consults</p>
+            </button>
+
+            <!-- Photo 2 Card -->
+            <button type="button" onclick="switchPhotoTab('salon')" 
+                    class="text-left group bg-slate-50 p-3 rounded-2xl border border-slate-200 hover:border-emerald-500 hover:shadow-lg transition">
+              <div class="aspect-[4/3] rounded-xl overflow-hidden bg-slate-900 mb-3 relative">
+                <img src="/salon-spa-booking.jpg" alt="Salon photo" class="w-full h-full object-cover group-hover:scale-105 transition"
+                     onerror="this.src='/salon_spa_booking_1789893271666.jpg'; this.onerror=function(){this.src='salon-spa-booking.jpg';}" referrerPolicy="no-referrer" />
+                <span class="absolute top-2 left-2 text-[10px] font-bold bg-slate-900/80 text-white px-2 py-0.5 rounded-md">Luxury Salon & Spa</span>
+              </div>
+              <p class="text-xs font-bold text-slate-800 group-hover:text-[#10B981] transition">Luxe Hair Lounge • Meera K.</p>
+              <p class="text-[11px] text-slate-500 mt-0.5">Weekend rush bookings & automated chair allocation</p>
+            </button>
+
+            <!-- Photo 3 Card -->
+            <button type="button" onclick="switchPhotoTab('re')" 
+                    class="text-left group bg-slate-50 p-3 rounded-2xl border border-slate-200 hover:border-emerald-500 hover:shadow-lg transition">
+              <div class="aspect-[4/3] rounded-xl overflow-hidden bg-slate-900 mb-3 relative">
+                <img src="/realestate-booking.jpg" alt="Real Estate photo" class="w-full h-full object-cover group-hover:scale-105 transition"
+                     onerror="this.src='/realestate_office_booking_1789893285723.jpg'; this.onerror=function(){this.src='realestate-booking.jpg';}" referrerPolicy="no-referrer" />
+                <span class="absolute top-2 left-2 text-[10px] font-bold bg-slate-900/80 text-white px-2 py-0.5 rounded-md">Real Estate Agency</span>
+              </div>
+              <p class="text-xs font-bold text-slate-800 group-hover:text-[#10B981] transition">Skyline Realty • Rajesh M.</p>
+              <p class="text-[11px] text-slate-500 mt-0.5">Instant WhatsApp project brochures & site visits</p>
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- DEDICATED VIDEO DEMO SHOWCASE -->
+    <section id="video-showcase" class="py-20 lg:py-28 bg-[#0F172A] text-white border-y border-slate-800 relative">
+      <!-- Anchor for nav links -->
+      <span id="video" class="relative -top-24"></span>
+
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-3xl mx-auto">
+          <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-red-500/10 border border-red-500/20 text-red-400 text-xs font-semibold mb-4">
+            <span class="w-2 h-2 rounded-full bg-red-500 animate-ping"></span>
+            <span>🎬 Live Video Walkthroughs</span>
+          </div>
+          <h2 class="text-3xl sm:text-4xl font-black text-white tracking-tight">
+            Watch Inquiries Convert into Bookings on Autopilot
+          </h2>
+          <p class="mt-4 text-base sm:text-lg text-slate-300">
+            Select a video below to watch how Vexqira handles after-hours clinic triage and busy weekend salon chair scheduling in seconds.
+          </p>
+
+          <!-- DUAL VIDEO SELECTOR BUTTONS -->
+          <div class="mt-8 inline-flex p-1.5 rounded-2xl bg-slate-900 border border-slate-800 text-xs font-bold gap-1 shadow-inner">
+            <button type="button" id="video-select-clinic" onclick="selectVideoTrack('clinic')"
+                    class="px-4 py-2 rounded-xl bg-red-600 text-white shadow-sm transition flex items-center gap-2">
+              <span>🏥 Video 1: Clinic After-Hours</span>
+            </button>
+            <button type="button" id="video-select-salon" onclick="selectVideoTrack('salon')"
+                    class="px-4 py-2 rounded-xl text-slate-400 hover:text-white transition flex items-center gap-2">
+              <span>💇 Video 2: Salon Peak Rush</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- VIDEO PLAYER THEATER CONTAINER -->
+        <div class="mt-12 max-w-4xl mx-auto bg-slate-900 rounded-3xl p-4 sm:p-6 border border-slate-800 shadow-2xl">
+          
+          <!-- TOP PLAYER BAR -->
+          <div class="flex flex-wrap items-center justify-between pb-4 border-b border-slate-800 text-xs gap-3">
+            <div class="flex items-center gap-2.5">
+              <span class="w-3 h-3 rounded-full bg-red-500"></span>
+              <span class="w-3 h-3 rounded-full bg-amber-500"></span>
+              <span class="w-3 h-3 rounded-full bg-emerald-500"></span>
+              <span id="video-filename" class="text-slate-400 font-mono ml-2 hidden sm:inline">Vexqira_Clinic_AfterHours_Automation.mp4</span>
+            </div>
+
+            <!-- PERSPECTIVE VIEW TOGGLE & AUDIO & SPEED -->
+            <div class="flex items-center gap-2">
+              <div class="bg-slate-950 p-1 rounded-xl border border-slate-800 flex items-center text-[11px]">
+                <button type="button" id="vid-mode-desk" onclick="switchVideoMode('desk')" class="px-2.5 py-1 rounded-lg bg-slate-800 text-white font-medium transition">
+                  🏢 Background View
+                </button>
+                <button type="button" id="vid-mode-chat" onclick="switchVideoMode('chat')" class="px-2.5 py-1 rounded-lg text-slate-400 hover:text-white font-medium transition">
+                  📱 Mobile Feed
+                </button>
+              </div>
+              <button type="button" onclick="toggleAudioChime()" id="audio-btn" class="px-2 py-1 rounded-lg bg-slate-800 text-slate-300 font-mono text-[11px] hover:text-white" title="Toggle sound effects">
+                🔊 Sound On
+              </button>
+              <button type="button" onclick="toggleSpeed()" id="speed-btn" class="px-2 py-1 rounded-lg bg-slate-800 text-slate-300 font-mono text-[11px] hover:text-white">1.0x</button>
+              <span class="px-2.5 py-1 rounded-lg bg-slate-800 text-slate-300 font-mono text-[11px]" id="video-timer">0:00 / 0:18</span>
+            </div>
+          </div>
+
+          <!-- VIDEO STAGE / SIMULATION SCREEN -->
+          <div id="video-stage-container" class="mt-4 relative bg-slate-950 rounded-2xl overflow-hidden border border-slate-800 min-h-[380px] sm:min-h-[440px] flex flex-col justify-between p-4 sm:p-6">
+            
+            <!-- STAGE BACKGROUND IMAGE -->
+            <div id="vid-bg-desk" class="absolute inset-0 transition-opacity duration-500">
+              <img id="vid-bg-img" src="/clinic-night-desk.jpg" alt="Video Background" 
+                   class="w-full h-full object-cover opacity-40"
+                   onerror="this.src='/video-poster.jpg'; this.onerror=function(){this.src='clinic-night-desk.jpg';}"
+                   referrerPolicy="no-referrer" />
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/70 to-slate-950/90"></div>
+            </div>
+
+            <!-- STAGE HEADER / BADGE -->
+            <div class="relative z-10 flex items-center justify-between">
+              <div class="flex items-center gap-3">
+                <div id="video-stage-avatar" class="w-9 h-9 rounded-full bg-emerald-500/20 text-[#10B981] flex items-center justify-center font-bold text-xs">
+                  AI
+                </div>
+                <div>
+                  <h4 class="text-xs sm:text-sm font-bold text-white" id="video-stage-title">Scenario: 11:30 PM Clinic Reception Desk</h4>
+                  <p class="text-[10px] text-slate-400" id="video-stage-subtitle">Front desk is empty • Automated Vexqira AI answers instantly</p>
+                </div>
+              </div>
+              <span class="text-xs bg-red-500/20 text-red-300 border border-red-500/30 px-2.5 py-0.5 rounded-full font-semibold flex items-center gap-1.5">
+                <span class="w-1.5 h-1.5 rounded-full bg-red-400 animate-pulse"></span>
+                <span id="video-status-badge">Ready to Play</span>
+              </span>
+            </div>
+
+            <!-- ANIMATED MESSAGE SEQUENCE CANVAS -->
+            <div class="relative z-10 my-auto py-4 space-y-3 max-w-xl mx-auto w-full" id="video-chat-canvas">
+              
+              <!-- STEP 1 BUBBLE (Incoming Inquiry) -->
+              <div id="vid-step-1" class="hidden transition-all duration-300 transform translate-y-2 opacity-0">
+                <div class="flex justify-end">
+                  <div class="bg-[#DCF8C6] text-slate-900 p-3 rounded-2xl rounded-tr-none text-xs shadow-md max-w-[85%]">
+                    <p id="vid-msg-1" class="font-medium">"Hi, are you available for tomorrow?"</p>
+                    <span id="vid-time-1" class="block text-[10px] text-slate-600 text-right mt-1">11:30 PM • ✓✓</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- STEP 2 BUBBLE (Instant AI Reply with open options) -->
+              <div id="vid-step-2" class="hidden transition-all duration-300 transform translate-y-2 opacity-0">
+                <div class="flex justify-start">
+                  <div class="bg-emerald-950/90 text-white p-3 rounded-2xl rounded-tl-none text-xs shadow-md max-w-[85%] border border-emerald-500/50">
+                    <p id="vid-bot-header" class="text-emerald-400 font-bold">⚡ Vexqira AI (Instant reply in 1.2s):</p>
+                    <p id="vid-msg-2" class="mt-1 text-slate-200">"Hello! Dr. Sharma has 2 open slots tomorrow: <strong>11:00 AM</strong> or <strong>5:15 PM</strong>. Which time works best for your consultation?"</p>
+                    <span id="vid-time-2" class="block text-[10px] text-emerald-300 text-right mt-1">11:30 PM</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- STEP 3 BUBBLE (Client picks option) -->
+              <div id="vid-step-3" class="hidden transition-all duration-300 transform translate-y-2 opacity-0">
+                <div class="flex justify-end">
+                  <div class="bg-[#DCF8C6] text-slate-900 p-3 rounded-2xl rounded-tr-none text-xs shadow-md max-w-[85%]">
+                    <p id="vid-msg-3" class="font-medium">"11:00 AM please. Name: Rahul, phone 98200XXXXX."</p>
+                    <span id="vid-time-3" class="block text-[10px] text-slate-600 text-right mt-1">11:31 PM • ✓✓</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- STEP 4 BUBBLE (Confirmed on Calendar & Tablet) -->
+              <div id="vid-step-4" class="hidden transition-all duration-300 transform translate-y-2 opacity-0">
+                <div class="flex justify-start">
+                  <div class="bg-emerald-900/90 text-emerald-100 p-3.5 rounded-2xl rounded-tl-none text-xs shadow-md max-w-[90%] border border-emerald-500/60">
+                    <p id="vid-confirm-title" class="text-emerald-300 font-bold">🎉 Your Slot Is Booked For Tomorrow at 11:00 AM!</p>
+                    <p id="vid-msg-4" class="mt-1 text-slate-100">"Confirmed Rahul! You are booked with Dr. Sharma tomorrow at <strong>11:00 AM</strong>. Added to clinic tablet schedule & Google Calendar."</p>
+                    <div id="vid-confirm-badges" class="mt-2 pt-2 border-t border-emerald-500/30 flex items-center justify-between text-[10px] text-emerald-200">
+                      <span>✓ Google Calendar Synced</span>
+                      <span>✓ Tablet Schedule Locked</span>
+                      <span>✓ WhatsApp Reminder Set</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- STEP 5 RESULT SUMMARY -->
+              <div id="vid-step-5" class="hidden transition-all duration-300 transform translate-y-2 opacity-0 text-center py-2">
+                <div id="vid-summary-banner" class="inline-flex items-center gap-2 bg-emerald-500/20 text-[#10B981] border border-emerald-500/40 px-4 py-2 rounded-xl text-xs font-bold shadow-lg">
+                  <span>✅ Slot Captured in 18 Seconds • 0 Staff Overhead • Empty Desk at 11:30 PM</span>
+                </div>
+              </div>
+
+              <!-- INITIAL IDLE PLAY PROMPT -->
+              <div id="vid-idle-prompt" class="text-center py-8">
+                <button type="button" onclick="playVideoSimulation()" 
+                        class="w-16 h-16 rounded-full bg-[#10B981] hover:bg-[#059669] text-white flex items-center justify-center text-2xl mx-auto shadow-xl shadow-emerald-500/30 transform hover:scale-110 transition duration-200">
+                  ▶
+                </button>
+                <p id="vid-idle-title" class="text-sm font-bold text-white mt-4">Click to Start Video Walkthrough</p>
+                <p id="vid-idle-subtitle" class="text-xs text-slate-400 mt-1">Watch real automated scheduling in 18 seconds</p>
+              </div>
+
+            </div>
+
+            <!-- TIMELINE PROGRESS BAR -->
+            <div class="relative z-10 pt-3 border-t border-slate-800">
+              <div class="w-full bg-slate-800 h-2 rounded-full overflow-hidden">
+                <div id="video-progress-bar" class="bg-gradient-to-r from-emerald-400 to-[#10B981] h-full w-0 transition-all duration-200"></div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- BOTTOM CONTROLS & CTA -->
+          <div class="mt-4 flex flex-wrap items-center justify-between gap-4">
+            <div class="flex items-center gap-2">
+              <button type="button" id="vid-play-btn" onclick="toggleVideoPlayback()"
+                      class="bg-slate-800 hover:bg-slate-700 text-white px-4 py-2 rounded-xl text-xs font-semibold flex items-center gap-1.5 transition">
+                <span id="play-icon">▶ Play</span>
+              </button>
+              <button type="button" onclick="restartVideoSimulation()"
+                      class="bg-slate-800 hover:bg-slate-700 text-white px-3 py-2 rounded-xl text-xs font-semibold transition">
+                🔄 Restart
+              </button>
+            </div>
+
+            <div class="flex items-center gap-3">
+              <span class="text-xs text-slate-400 hidden sm:inline">Want this running for your clinic or salon?</span>
+              <a href="https://wa.me/917499320493?text=Hi%20Vexqira,%20I%20saw%20your%20video%20walkthrough%20and%20want%20this%20for%20my%20business" target="_blank"
+                 class="bg-[#10B981] hover:bg-[#059669] text-white px-5 py-2 rounded-xl font-bold text-xs transition shadow-md shadow-emerald-500/20">
+                <span>Deploy for Your Business</span> &rarr;
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
     <!-- 3-STEP PROCESS WORKFLOW -->
     <section id="process" class="py-20 lg:py-28 bg-[#0F172A] text-white">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -457,47 +1191,56 @@
         <div class="mt-16 grid md:grid-cols-3 gap-8 relative">
           
           <!-- STEP 1 -->
-          <div class="bg-slate-800/80 rounded-2xl p-8 border border-slate-700 relative">
-            <div class="w-12 h-12 rounded-xl bg-emerald-500/20 text-[#10B981] border border-emerald-500/30 flex items-center justify-center font-bold text-lg mb-6">
-              01
+          <div class="bg-slate-800/80 rounded-2xl p-8 border border-slate-700 relative flex flex-col justify-between">
+            <div>
+              <div class="w-12 h-12 rounded-xl bg-emerald-500/20 text-[#10B981] border border-emerald-500/30 flex items-center justify-center font-bold text-lg mb-6">
+                01
+              </div>
+              <h3 class="text-xl font-bold text-white">15-Min Audit</h3>
+              <p class="text-sm font-semibold text-emerald-400 mt-1">Discovery & Menu Collection</p>
+              <p class="mt-4 text-sm text-slate-300 leading-relaxed">
+                We collect your existing service menu, consultation fees, operating hours, and top frequent questions over a quick phone or WhatsApp chat with our team.
+              </p>
             </div>
-            <h3 class="text-xl font-bold text-white">Audit</h3>
-            <p class="text-sm font-semibold text-emerald-400 mt-1">15-Min Discovery & Review</p>
-            <p class="mt-4 text-sm text-slate-300 leading-relaxed">
-              We collect your existing service menu, consultation fees, operating hours, and frequent customer questions over a quick phone or WhatsApp chat with our team.
-            </p>
-            <div class="mt-6 pt-4 border-t border-slate-700/60 text-xs text-slate-400">
-              ✓ Zero homework for your staff
+            
+            <div class="mt-6 pt-4 border-t border-slate-700/60">
+              <button type="button" onclick="openIntakeModal()" class="w-full py-2 px-3 rounded-xl bg-slate-700/60 hover:bg-slate-700 text-xs font-semibold text-emerald-300 border border-slate-600 transition flex items-center justify-center gap-1.5">
+                <span>📋 Preview 10-Question Intake Sheet</span>
+              </button>
             </div>
           </div>
 
           <!-- STEP 2 -->
-          <div class="bg-slate-800/80 rounded-2xl p-8 border border-emerald-500/40 relative shadow-lg shadow-emerald-500/5">
-            <div class="w-12 h-12 rounded-xl bg-[#10B981] text-white flex items-center justify-center font-bold text-lg mb-6 shadow-md shadow-emerald-500/30">
-              02
+          <div class="bg-slate-800/80 rounded-2xl p-8 border border-emerald-500/40 relative shadow-lg shadow-emerald-500/5 flex flex-col justify-between">
+            <div>
+              <div class="w-12 h-12 rounded-xl bg-[#10B981] text-white flex items-center justify-center font-bold text-lg mb-6 shadow-md shadow-emerald-500/30">
+                02
+              </div>
+              <h3 class="text-xl font-bold text-white">Custom Setup</h3>
+              <p class="text-sm font-semibold text-emerald-400 mt-1">Live within 48 Hours</p>
+              <p class="mt-4 text-sm text-slate-300 leading-relaxed">
+                Our engineering team trains your custom AI brain, links your Google Calendar / booking sheet, and connects directly to your official WhatsApp number.
+              </p>
             </div>
-            <h3 class="text-xl font-bold text-white">Custom Setup</h3>
-            <p class="text-sm font-semibold text-emerald-400 mt-1">Live within 48 Hours</p>
-            <p class="mt-4 text-sm text-slate-300 leading-relaxed">
-              Our engineering team builds your custom AI brain, connects your Google Calendar or booking sheet, and safely links it directly to your official WhatsApp number.
-            </p>
             <div class="mt-6 pt-4 border-t border-slate-700/60 text-xs text-slate-400">
               ✓ Rigorously tested before launch
             </div>
           </div>
 
           <!-- STEP 3 -->
-          <div class="bg-slate-800/80 rounded-2xl p-8 border border-slate-700 relative">
-            <div class="w-12 h-12 rounded-xl bg-emerald-500/20 text-[#10B981] border border-emerald-500/30 flex items-center justify-center font-bold text-lg mb-6">
-              03
+          <div class="bg-slate-800/80 rounded-2xl p-8 border border-slate-700 relative flex flex-col justify-between">
+            <div>
+              <div class="w-12 h-12 rounded-xl bg-emerald-500/20 text-[#10B981] border border-emerald-500/30 flex items-center justify-center font-bold text-lg mb-6">
+                03
+              </div>
+              <h3 class="text-xl font-bold text-white">24/7 Autopilot</h3>
+              <p class="text-sm font-semibold text-emerald-400 mt-1">Sit back & watch bookings arrive</p>
+              <p class="mt-4 text-sm text-slate-300 leading-relaxed">
+                Your AI answers customer questions, confirms bookings, and sends automated reminder alerts around the clock. Your staff only handles customer care.
+              </p>
             </div>
-            <h3 class="text-xl font-bold text-white">24/7 Autopilot</h3>
-            <p class="text-sm font-semibold text-emerald-400 mt-1">Sit back & watch bookings arrive</p>
-            <p class="mt-4 text-sm text-slate-300 leading-relaxed">
-              Your AI answers customer questions, confirms bookings, and sends automated reminder alerts around the clock. Your staff only handles customer care.
-            </p>
             <div class="mt-6 pt-4 border-t border-slate-700/60 text-xs text-slate-400">
-              ✓ Instant booking alerts to +91 74993 20493
+              ✓ Instant alerts to +91 74993 20493
             </div>
           </div>
 
@@ -505,7 +1248,7 @@
 
         <!-- PROCESS CTA -->
         <div class="mt-14 text-center">
-          <a href="https://wa.me/917499320493?text=Hi%20Vexqira,%20I%20want%20to%20start%20my%2015-minute%20audit" target="_blank"
+          <a href="https://wa.me/917499320493?text=Hi%20Vexqira,%20I%20want%20to%20start%20my%20free%2015-minute%20audit" target="_blank"
              class="inline-flex items-center gap-2 bg-[#10B981] hover:bg-[#059669] text-white px-8 py-4 rounded-xl font-bold text-base transition shadow-xl shadow-emerald-500/20">
             <span>Book Your Free 15-Min Audit on WhatsApp</span>
             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
@@ -515,7 +1258,7 @@
       </div>
     </section>
 
-    <!-- PRICING TABLE -->
+    <!-- PRICING & 7-DAY ZERO-RISK GUARANTEE TABLE -->
     <section id="pricing" class="py-20 lg:py-28 bg-[#F8FAFC]">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
@@ -525,15 +1268,33 @@
             Simple, Honest Plans with Zero Hidden Charges
           </h2>
           <p class="mt-4 text-base sm:text-lg text-slate-600">
-            Start small and upgrade as your booking volume grows. No lock-in contracts; cancel anytime.
+            Start small and upgrade as your booking volume grows. Backed by our official 7-Day Zero-Risk Guarantee.
           </p>
         </div>
 
+        <!-- GUARANTEE HIGHLIGHT BANNER -->
+        <div class="mt-10 max-w-3xl mx-auto bg-amber-50 border-2 border-amber-300/80 rounded-2xl p-5 sm:p-6 text-slate-800 shadow-sm flex flex-col sm:flex-row items-center gap-4">
+          <div class="w-14 h-14 rounded-2xl bg-amber-100 text-amber-700 flex items-center justify-center text-3xl shrink-0">
+            🛡️
+          </div>
+          <div>
+            <h4 class="font-bold text-base sm:text-lg text-amber-950">7-Day Zero-Risk Founding Client Guarantee</h4>
+            <p class="text-xs sm:text-sm text-slate-700 mt-1 leading-relaxed">
+              Test Vexqira AI for 7 full days on your real WhatsApp business number. If your AI doesn't save your team hours of phone tag and capture bookings, we issue a <strong>100% full refund on your setup fee</strong>. Zero questions asked.
+            </p>
+          </div>
+        </div>
+
         <!-- PRICING CARDS -->
-        <div class="mt-16 grid md:grid-cols-2 gap-8 max-w-4xl mx-auto items-stretch">
+        <div class="mt-12 grid md:grid-cols-2 gap-8 max-w-4xl mx-auto items-stretch">
           
           <!-- STARTER PLAN -->
-          <div class="bg-white rounded-3xl p-8 sm:p-10 shadow-lg border border-slate-200 flex flex-col justify-between hover:border-slate-300 transition">
+          <div class="bg-white rounded-3xl p-8 sm:p-10 shadow-lg border-2 border-slate-200 flex flex-col justify-between hover:border-emerald-500/50 transition relative">
+            <!-- GUARANTEE BADGE -->
+            <div class="inline-flex items-center gap-1.5 bg-amber-100 text-amber-800 text-[11px] font-bold px-3 py-1 rounded-full mb-4 self-start border border-amber-200">
+              <span>🛡️ 7-Day Risk-Free Pilot Included</span>
+            </div>
+
             <div>
               <div class="flex items-center justify-between">
                 <div>
@@ -580,9 +1341,9 @@
             </div>
 
             <div class="mt-10">
-              <a href="https://wa.me/917499320493?text=Hi%20Vexqira,%20I%20am%20interested%20in%20the%20Starter%20Plan%20(₹4999%20setup)" target="_blank"
+              <a href="https://wa.me/917499320493?text=Hi%20Vexqira,%20I%20want%20to%20claim%20the%20Starter%20Tier%20with%20the%207-Day%20Zero-Risk%20Founding%20Client%20Guarantee" target="_blank"
                  class="w-full flex items-center justify-center gap-2 bg-slate-800 hover:bg-slate-900 text-white py-3.5 px-6 rounded-xl font-bold text-sm transition">
-                <span>Choose Starter Plan</span>
+                <span>Choose Starter (Zero-Risk)</span>
               </a>
             </div>
           </div>
@@ -638,19 +1399,13 @@
             </div>
 
             <div class="mt-10">
-              <a href="https://wa.me/917499320493?text=Hi%20Vexqira,%20I%20am%20interested%20in%20the%20Growth%20Plan%20(₹11999%20setup)" target="_blank"
+              <a href="https://wa.me/917499320493?text=Hi%20Vexqira,%20I%20want%20to%20explore%20the%20Growth%20Tier%20for%20my%20business" target="_blank"
                  class="w-full flex items-center justify-center gap-2 bg-[#10B981] hover:bg-[#059669] text-white py-3.5 px-6 rounded-xl font-bold text-sm transition shadow-lg shadow-emerald-500/25">
                 <span>Choose Growth Plan</span>
               </a>
             </div>
           </div>
 
-        </div>
-
-        <!-- MONEY-BACK GUARANTEE -->
-        <div class="mt-12 text-center text-xs text-slate-500 flex items-center justify-center gap-2">
-          <svg class="w-4 h-4 text-[#10B981]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
-          <span><strong>14-Day Performance Guarantee:</strong> If your AI does not capture bookings in the first 14 days, we refine it for free.</span>
         </div>
 
       </div>
@@ -663,7 +1418,7 @@
           
           <div class="md:col-span-4 flex justify-center">
             <div class="relative w-48 h-48 sm:w-56 sm:h-56 rounded-full p-1 bg-gradient-to-tr from-cyan-400 via-indigo-500 to-purple-600 shadow-2xl shadow-indigo-500/30 overflow-hidden">
-              <img src="/vexqira-logo.jpg" alt="Vexqira Official Emblem" class="w-full h-full object-cover rounded-full bg-black" referrerPolicy="no-referrer" />
+              <img src="/vexqira-logo.jpg" alt="Vexqira Official Emblem" class="w-full h-full object-cover rounded-full bg-black" onerror="this.src='vexqira-logo.jpg'" referrerPolicy="no-referrer" />
             </div>
           </div>
 
@@ -695,7 +1450,7 @@
             Frequently Asked Questions
           </h2>
           <p class="mt-4 text-base text-slate-600">
-            Everything you need to know before putting your customer inquiries on 24/7 autopilot.
+            Everything clinic, salon, and real estate owners ask before putting their customer inquiries on 24/7 autopilot.
           </p>
         </div>
 
@@ -718,6 +1473,19 @@
           <!-- ITEM 2 -->
           <div class="border border-slate-200 rounded-2xl overflow-hidden faq-item transition">
             <button type="button" class="w-full flex items-center justify-between p-6 text-left font-bold text-base sm:text-lg text-[#0F172A] hover:bg-slate-50 transition faq-btn" aria-expanded="false">
+              <span>How does the 7-Day Zero-Risk Founding Client Guarantee work?</span>
+              <svg class="w-5 h-5 text-slate-500 transform transition-transform duration-200 faq-icon shrink-0 ml-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </button>
+            <div class="faq-content hidden px-6 pb-6 text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-4">
+              We want you to experience the value firsthand with zero downside. Once we deploy your custom AI on WhatsApp, test it with your real patients or clients for 7 days. If you feel it doesn't save your reception team time or deliver smoother bookings, send us a WhatsApp message and we will immediately refund 100% of your setup fee.
+            </div>
+          </div>
+
+          <!-- ITEM 3 -->
+          <div class="border border-slate-200 rounded-2xl overflow-hidden faq-item transition">
+            <button type="button" class="w-full flex items-center justify-between p-6 text-left font-bold text-base sm:text-lg text-[#0F172A] hover:bg-slate-50 transition faq-btn" aria-expanded="false">
               <span>Will this replace my receptionist or front-desk staff?</span>
               <svg class="w-5 h-5 text-slate-500 transform transition-transform duration-200 faq-icon shrink-0 ml-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
@@ -728,7 +1496,7 @@
             </div>
           </div>
 
-          <!-- ITEM 3 -->
+          <!-- ITEM 4 -->
           <div class="border border-slate-200 rounded-2xl overflow-hidden faq-item transition">
             <button type="button" class="w-full flex items-center justify-between p-6 text-left font-bold text-base sm:text-lg text-[#0F172A] hover:bg-slate-50 transition faq-btn" aria-expanded="false">
               <span>What happens if a customer asks a complex or unusual question?</span>
@@ -741,7 +1509,7 @@
             </div>
           </div>
 
-          <!-- ITEM 4 -->
+          <!-- ITEM 5 -->
           <div class="border border-slate-200 rounded-2xl overflow-hidden faq-item transition">
             <button type="button" class="w-full flex items-center justify-between p-6 text-left font-bold text-base sm:text-lg text-[#0F172A] hover:bg-slate-50 transition faq-btn" aria-expanded="false">
               <span>How long does it take to go live?</span>
@@ -754,7 +1522,7 @@
             </div>
           </div>
 
-          <!-- ITEM 5 -->
+          <!-- ITEM 6 -->
           <div class="border border-slate-200 rounded-2xl overflow-hidden faq-item transition">
             <button type="button" class="w-full flex items-center justify-between p-6 text-left font-bold text-base sm:text-lg text-[#0F172A] hover:bg-slate-50 transition faq-btn" aria-expanded="false">
               <span>How do our doctors, stylists, or agents view upcoming bookings?</span>
@@ -763,7 +1531,7 @@
               </svg>
             </button>
             <div class="faq-content hidden px-6 pb-6 text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-4">
-              Bookings sync directly to your standard Google Calendar, an automated Google Sheet, or your existing clinic/salon management software. You get an instant notification with the client's name, phone, and chosen slot.
+              Bookings sync directly to your standard Google Calendar or Google Sheet. You receive instant WhatsApp notification alerts on your personal phone whenever an appointment is confirmed, rescheduled, or cancelled.
             </div>
           </div>
 
@@ -772,30 +1540,35 @@
       </div>
     </section>
 
-    <!-- LEAD CAPTURE & CONTACT SECTION -->
-    <section id="contact" class="py-20 lg:py-28 bg-[#0F172A] text-white relative">
+    <!-- CONTACT / DIRECT OUTREACH SECTION -->
+    <section id="contact" class="py-20 lg:py-28 bg-[#0F172A] text-white">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         <div class="grid lg:grid-cols-12 gap-12 items-center">
           
-          <!-- LEFT INFO -->
+          <!-- LEFT CONTACT DETAILS -->
           <div class="lg:col-span-6 text-center lg:text-left">
-            <span class="text-xs font-bold uppercase tracking-widest text-[#10B981]">Start Today</span>
+            <span class="text-xs font-bold uppercase tracking-widest text-[#10B981]">Let's Talk</span>
             <h2 class="mt-3 text-3xl sm:text-4xl font-black text-white tracking-tight">
-              Ready to Put Your Bookings on Autopilot?
+              Ready to Put Your Bookings on 24/7 Autopilot?
             </h2>
-            <p class="mt-4 text-base sm:text-lg text-slate-300 leading-relaxed">
-              Contact us directly via WhatsApp, phone, or email to schedule your personalized live demo. We will show you exactly how many missed inquiries we can recover for your business.
+            <p class="mt-4 text-base text-slate-300 leading-relaxed max-w-xl mx-auto lg:mx-0">
+              Get in touch directly with our team. We'll run a free 15-minute audit of your clinic, salon, or real estate business and show you how to capture after-hours revenue immediately.
             </p>
 
-            <div class="mt-8 space-y-4 text-sm">
-              <!-- WHATSAPP -->
-              <a href="https://wa.me/917499320493?text=Hi%20Vexqira,%20I%20want%20a%20free%20AI%20demo" target="_blank"
-                 class="inline-flex items-center gap-3 text-emerald-400 hover:text-emerald-300 font-semibold text-base transition">
-                <div class="w-10 h-10 rounded-xl bg-emerald-500/20 border border-emerald-500/30 flex items-center justify-center">
-                  <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766 0-3.18-2.586-5.771-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.299.144.347.491 1.2.534 1.288.043.088.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.353.101.173.449.741.963 1.2 1.07.957 1.637 1.277 1.869 1.393.231.116.368.101.505-.058.138-.159.592-.693.751-.931.159-.238.318-.202.534-.116.217.087 1.372.647 1.609.765.237.118.396.176.454.275.058.099.058.577-.086.982z"/></svg>
+            <div class="mt-8 space-y-4 max-w-md mx-auto lg:mx-0">
+              <!-- WHATSAPP DIRECT -->
+              <a href="https://wa.me/917499320493?text=Hi%20Vexqira,%20I%20want%20to%20book%20a%20free%2010-min%20AI%20demo" target="_blank"
+                 class="flex items-center justify-center lg:justify-start gap-3 p-3.5 rounded-2xl bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 hover:bg-emerald-500/20 transition group">
+                <div class="w-10 h-10 rounded-xl bg-[#10B981] text-white flex items-center justify-center shrink-0 shadow-md shadow-emerald-500/30">
+                  <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+                    <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766 0-3.18-2.586-5.771-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.299.144.347.491 1.2.534 1.288.043.088.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.353.101.173.449.741.963 1.2 1.07.957 1.637 1.277 1.869 1.393.231.116.368.101.505-.058.138-.159.592-.693.751-.931.159-.238.318-.202.534-.116.217.087 1.372.647 1.609.765.237.118.396.176.454.275.058.099.058.577-.086.982z"/>
+                  </svg>
                 </div>
-                <span>WhatsApp: +91 74993 20493 (Instant Reply)</span>
+                <div>
+                  <p class="text-xs text-slate-400">Direct WhatsApp</p>
+                  <p class="font-bold text-white group-hover:text-emerald-300 transition">+91 74993 20493</p>
+                </div>
               </a>
 
               <!-- PHONE -->
@@ -883,7 +1656,7 @@
         <!-- LOGO & BRAND -->
         <div class="flex items-center gap-3.5">
           <div class="w-10 h-10 rounded-full p-0.5 bg-gradient-to-tr from-cyan-500 to-purple-600 overflow-hidden shrink-0">
-            <img src="/vexqira-logo.jpg" alt="Vexqira AI Solutions Logo" class="w-full h-full object-cover rounded-full bg-black" referrerPolicy="no-referrer" />
+            <img src="/vexqira-logo.jpg" alt="Vexqira AI Solutions Logo" class="w-full h-full object-cover rounded-full bg-black" onerror="this.src='vexqira-logo.jpg'" referrerPolicy="no-referrer" />
           </div>
           <div>
             <span class="text-lg font-bold text-white tracking-tight">Vexqira AI Solutions</span>
@@ -894,11 +1667,12 @@
         <!-- QUICK LINKS -->
         <div class="flex flex-wrap items-center justify-center gap-6 text-xs text-slate-400">
           <a href="#features" class="hover:text-white transition">Features</a>
-          <a href="#demo" class="hover:text-white transition">Interactive Demo</a>
-          <a href="#pricing" class="hover:text-white transition">Pricing</a>
+          <a href="#demo" class="hover:text-white transition">Live Demo</a>
+          <a href="#video-showcase" class="hover:text-white transition">60-Sec Video</a>
+          <a href="#pricing" class="hover:text-white transition">Pricing & Guarantee</a>
           <a href="#faq" class="hover:text-white transition">FAQs</a>
           <a href="tel:+917499320493" class="hover:text-white transition">+91 74993 20493</a>
-          <a href="https://wa.me/917499320493?text=Hi%20Vexqira,%20I%20want%20a%20free%20AI%20demo" target="_blank" class="text-[#10B981] font-semibold hover:underline">WhatsApp Direct</a>
+          <a href="https://wa.me/917499320493?text=Hi%20Vexqira,%20I%20want%20to%20book%20a%20free%2010-min%20AI%20demo" target="_blank" class="text-[#10B981] font-semibold hover:underline">WhatsApp Direct</a>
         </div>
 
         <!-- COPYRIGHT -->
@@ -911,23 +1685,86 @@
     </div>
   </footer>
 
-  <!-- FLOATING WHATSAPP CTA BADGE -->
-  <aside aria-label="WhatsApp quick chat" class="fixed bottom-6 right-6 z-50">
-    <a href="https://wa.me/917499320493?text=Hi%20Vexqira,%20I%20want%20a%20free%20AI%20demo" target="_blank"
-       aria-label="Chat on WhatsApp"
-       class="group relative flex items-center gap-2.5 bg-[#10B981] hover:bg-[#059669] text-white pl-4 pr-5 py-3 rounded-full shadow-2xl shadow-emerald-500/40 transition-all duration-300 transform hover:scale-105">
+  <!-- FLOATING STICKY WHATSAPP PILL (FIXED BOTTOM-6 RIGHT-6) -->
+  <aside aria-label="WhatsApp quick booking chat" class="fixed bottom-6 right-6 z-50">
+    <a href="https://wa.me/917499320493?text=Hi%20Vexqira,%20I%20want%20to%20book%20a%20free%2010-min%20AI%20demo" target="_blank"
+       aria-label="Book a Free 10-Min Demo on WhatsApp"
+       class="group relative flex items-center gap-2.5 bg-[#10B981] hover:bg-[#059669] text-white pl-4 pr-5 py-3 rounded-full shadow-2xl shadow-emerald-500/40 transition-all duration-300 transform hover:scale-105 border border-emerald-400/30">
+      
+      <!-- RADAR PULSING RING -->
       <span class="relative flex h-3 w-3">
         <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-white opacity-75"></span>
         <span class="relative inline-flex rounded-full h-3 w-3 bg-white"></span>
       </span>
-      <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+
+      <!-- WHATSAPP EMBLEM -->
+      <svg class="w-5 h-5 fill-current shrink-0" viewBox="0 0 24 24">
         <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766 0-3.18-2.586-5.771-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.299.144.347.491 1.2.534 1.288.043.088.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.353.101.173.449.741.963 1.2 1.07.957 1.637 1.277 1.869 1.393.231.116.368.101.505-.058.138-.159.592-.693.751-.931.159-.238.318-.202.534-.116.217.087 1.372.647 1.609.765.237.118.396.176.454.275.058.099.058.577-.086.982z"/>
       </svg>
-      <span class="font-bold text-xs tracking-wide">Book Demo</span>
+      
+      <!-- PILL TEXT -->
+      <span class="font-bold text-xs sm:text-sm tracking-tight whitespace-nowrap">Book a Free 10-Min Demo</span>
     </a>
   </aside>
 
-  <!-- VANILLA JAVASCRIPT LOGIC -->
+  <!-- CLIENT INTAKE & 10-QUESTION ONBOARDING MODAL -->
+  <div id="intake-modal" class="hidden fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm">
+    <div class="bg-slate-900 border border-slate-700 rounded-3xl max-w-2xl w-full max-h-[90vh] overflow-hidden flex flex-col shadow-2xl">
+      <!-- MODAL HEADER -->
+      <div class="p-6 border-b border-slate-800 flex items-center justify-between">
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-xl bg-emerald-500/20 text-[#10B981] flex items-center justify-center font-bold">
+            📋
+          </div>
+          <div>
+            <h3 class="text-lg font-bold text-white">Vexqira 10-Question Client Onboarding Sheet</h3>
+            <p class="text-xs text-slate-400">Everything needed to train & deploy your 24/7 AI in 48 hours</p>
+          </div>
+        </div>
+        <button type="button" onclick="closeIntakeModal()" class="text-slate-400 hover:text-white p-2 text-xl font-bold">
+          &times;
+        </button>
+      </div>
+
+      <!-- MODAL BODY -->
+      <div class="p-6 overflow-y-auto space-y-4 text-xs text-slate-300 custom-scrollbar">
+        <p class="text-slate-400 text-xs leading-relaxed">
+          Copy these 10 questions directly into Google Forms or answer them over WhatsApp. We build your entire system from these responses:
+        </p>
+
+        <div id="intake-questions-text" class="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2.5 font-mono text-[11px] text-slate-200">
+          <p><strong>1. Business Name & Owner/Lead Doctor:</strong> Legal name and public trade name.</p>
+          <p><strong>2. Business Type:</strong> Dental Clinic / Dermatology / Hair Salon / Luxury Spa / Real Estate Agency.</p>
+          <p><strong>3. Operating Hours:</strong> Regular opening/closing hours and days of operation.</p>
+          <p><strong>4. Official WhatsApp Number:</strong> Number on which the 24/7 AI assistant will be connected.</p>
+          <p><strong>5. Consultation / Service Fees:</strong> Primary consultation pricing or base service rate card.</p>
+          <p><strong>6. Full Address & Landmark:</strong> Street, floor, landmarks, and parking instructions for patients/clients.</p>
+          <p><strong>7. Google Calendar / Booking Link:</strong> The email or calendar link to sync appointments into.</p>
+          <p><strong>8. Top 5-10 Frequent Questions:</strong> Common questions asked by customers (and standard answers).</p>
+          <p><strong>9. Emergency / Human Escalation Phone:</strong> Number to alert if a customer has an emergency or requests human staff.</p>
+          <p><strong>10. Special Appointment Instructions:</strong> Pre-visit prep guidelines (e.g. fasting before test, arrive 10 min early).</p>
+        </div>
+
+        <div id="copy-success-msg" class="hidden p-3 rounded-xl bg-emerald-500/20 border border-emerald-500/40 text-emerald-200 text-xs">
+          ✅ 10 questions copied to clipboard! You can now paste them directly into Google Forms or WhatsApp.
+        </div>
+      </div>
+
+      <!-- MODAL FOOTER -->
+      <div class="p-4 border-t border-slate-800 bg-slate-950 flex flex-wrap items-center justify-between gap-3">
+        <button type="button" onclick="copyIntakeQuestions()" 
+                class="bg-slate-800 hover:bg-slate-700 text-white px-4 py-2.5 rounded-xl font-semibold text-xs transition flex items-center gap-1.5">
+          <span>📋 Copy 10 Questions to Clipboard</span>
+        </button>
+        <a href="https://wa.me/917499320493?text=Hi%20Vexqira,%20I%20have%20reviewed%20the%2010-Question%20Intake%20Sheet%20and%20want%20to%20begin%20setup" target="_blank"
+           class="bg-[#10B981] hover:bg-[#059669] text-white px-5 py-2.5 rounded-xl font-bold text-xs transition">
+          <span>Send Answers on WhatsApp</span> &rarr;
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- JAVASCRIPT LOGIC -->
   <script>
     // MOBILE NAVIGATION TOGGLE
     const mobileBtn = document.getElementById('mobile-menu-btn');
@@ -949,7 +1786,6 @@
         }
       });
 
-      // Close mobile menu when clicking any nav link
       document.querySelectorAll('.mobile-nav-link').forEach(link => {
         link.addEventListener('click', () => {
           mobileMenu.classList.add('hidden');
@@ -959,7 +1795,7 @@
       });
     }
 
-    // ACCORDION FAQ TOGGLE
+    // ACCORDION FAQ TOGGLE WITH SMOOTH EXPANSION
     const faqButtons = document.querySelectorAll('.faq-btn');
     faqButtons.forEach(btn => {
       btn.addEventListener('click', () => {
@@ -975,7 +1811,7 @@
           if (ic) ic.classList.remove('rotate-180');
         });
 
-        // Toggle current item
+        // Toggle clicked item
         if (!isExpanded) {
           content.classList.remove('hidden');
           btn.setAttribute('aria-expanded', 'true');
@@ -984,7 +1820,200 @@
       });
     });
 
-    // INTERACTIVE CHAT SIMULATOR
+    // HERO VIEW SWITCHER (SIMULATOR, CLIENT PHOTO, VIDEO, MOCKUP)
+    function switchHeroView(viewName) {
+      const simView = document.getElementById('hero-view-simulator');
+      const clientView = document.getElementById('hero-view-client');
+      const mockView = document.getElementById('hero-view-mockup');
+      const vidView = document.getElementById('hero-view-video');
+
+      const simBtn = document.getElementById('tab-simulator-btn');
+      const clientBtn = document.getElementById('tab-client-btn');
+      const mockBtn = document.getElementById('tab-mockup-btn');
+      const vidBtn = document.getElementById('tab-video-btn');
+
+      // Reset all tabs
+      [simBtn, clientBtn, mockBtn, vidBtn].forEach(b => {
+        if (b) b.className = 'flex-1 py-1.5 px-1 rounded-xl text-center text-slate-400 hover:text-white transition flex items-center justify-center gap-1';
+      });
+      [simView, clientView, mockView, vidView].forEach(v => {
+        if (v) v.classList.add('hidden');
+      });
+
+      if (viewName === 'simulator' && simView && simBtn) {
+        simView.classList.remove('hidden');
+        simBtn.className = 'flex-1 py-1.5 px-1 rounded-xl text-center bg-slate-800 text-white transition flex items-center justify-center gap-1 shadow-sm';
+      } else if (viewName === 'client' && clientView && clientBtn) {
+        clientView.classList.remove('hidden');
+        clientBtn.className = 'flex-1 py-1.5 px-1 rounded-xl text-center bg-slate-800 text-white transition flex items-center justify-center gap-1 shadow-sm';
+      } else if (viewName === 'mockup' && mockView && mockBtn) {
+        mockView.classList.remove('hidden');
+        mockBtn.className = 'flex-1 py-1.5 px-1 rounded-xl text-center bg-slate-800 text-white transition flex items-center justify-center gap-1 shadow-sm';
+      } else if (viewName === 'video' && vidView && vidBtn) {
+        vidView.classList.remove('hidden');
+        vidBtn.className = 'flex-1 py-1.5 px-1 rounded-xl text-center bg-slate-800 text-white transition flex items-center justify-center gap-1 shadow-sm';
+      }
+    }
+
+    // HERO PHOTO SWITCHER (CLINIC, SALON, REAL ESTATE)
+    function selectHeroPhoto(type) {
+      const img = document.getElementById('hero-client-img');
+      const tag = document.getElementById('hero-client-tag');
+      const title = document.getElementById('hero-client-title');
+      const desc = document.getElementById('hero-client-desc');
+      const stat = document.getElementById('hero-client-stat');
+
+      const btnClinic = document.getElementById('hero-photo-clinic-btn');
+      const btnSalon = document.getElementById('hero-photo-salon-btn');
+      const btnRE = document.getElementById('hero-photo-re-btn');
+
+      [btnClinic, btnSalon, btnRE].forEach(b => {
+        if (b) b.className = 'px-2 py-0.5 rounded-lg text-[10px] font-bold bg-slate-800 text-slate-300 hover:text-white transition';
+      });
+
+      if (type === 'clinic') {
+        if (img) img.src = '/clinic-doctor-tablet.jpg';
+        if (tag) tag.textContent = 'Verified Clinic Client';
+        if (title) title.textContent = 'Dr. Sharma • Vexqira Bookings Tablet';
+        if (desc) desc.textContent = 'Synchronized with clinic Google Calendar';
+        if (stat) stat.innerHTML = '✨ <strong>38+ appointments</strong> captured each month on complete autopilot.';
+        if (btnClinic) btnClinic.className = 'px-2 py-0.5 rounded-lg text-[10px] font-bold bg-[#10B981] text-white transition';
+      } else if (type === 'salon') {
+        if (img) img.src = '/salon-spa-booking.jpg';
+        if (tag) tag.textContent = 'Verified Salon Partner';
+        if (title) title.textContent = 'Luxe Hair Lounge • Reception Desk';
+        if (desc) desc.textContent = 'Stylist chairs auto-assigned via WhatsApp';
+        if (stat) stat.innerHTML = '✨ <strong>45+ weekend appointments</strong> booked without interrupting stylists.';
+        if (btnSalon) btnSalon.className = 'px-2 py-0.5 rounded-lg text-[10px] font-bold bg-[#10B981] text-white transition';
+      } else if (type === 're') {
+        if (img) img.src = '/realestate-booking.jpg';
+        if (tag) tag.textContent = 'Verified Real Estate Partner';
+        if (title) title.textContent = 'Skyline Realty • Consultation Desk';
+        if (desc) desc.textContent = 'Instant PDF brochure & tour schedules';
+        if (stat) stat.innerHTML = '✨ <strong>3.4x faster site visits</strong> scheduled for high-intent property buyers.';
+        if (btnRE) btnRE.className = 'px-2 py-0.5 rounded-lg text-[10px] font-bold bg-[#10B981] text-white transition';
+      }
+    }
+
+    // PHOTO SHOWCASE TAB SWITCHER
+    function switchPhotoTab(industry) {
+      const panelClinic = document.getElementById('photo-panel-clinic');
+      const panelSalon = document.getElementById('photo-panel-salon');
+      const panelRE = document.getElementById('photo-panel-re');
+
+      const btnClinic = document.getElementById('photo-tab-clinic');
+      const btnSalon = document.getElementById('photo-tab-salon');
+      const btnRE = document.getElementById('photo-tab-re');
+
+      [panelClinic, panelSalon, panelRE].forEach(p => {
+        if (p) p.classList.add('hidden');
+      });
+
+      [btnClinic, btnSalon, btnRE].forEach(b => {
+        if (b) b.className = 'px-4 py-2 rounded-xl text-slate-600 hover:text-slate-900 transition flex items-center gap-2';
+      });
+
+      if (industry === 'clinic') {
+        if (panelClinic) panelClinic.classList.remove('hidden');
+        if (btnClinic) btnClinic.className = 'px-4 py-2 rounded-xl bg-white text-slate-900 shadow-sm transition flex items-center gap-2';
+      } else if (industry === 'salon') {
+        if (panelSalon) panelSalon.classList.remove('hidden');
+        if (btnSalon) btnSalon.className = 'px-4 py-2 rounded-xl bg-white text-slate-900 shadow-sm transition flex items-center gap-2';
+      } else if (industry === 're') {
+        if (panelRE) panelRE.classList.remove('hidden');
+        if (btnRE) btnRE.className = 'px-4 py-2 rounded-xl bg-white text-slate-900 shadow-sm transition flex items-center gap-2';
+      }
+    }
+
+    // AUDIO CHIME SYNTHESIZER (WEB AUDIO API)
+    let audioChimeEnabled = true;
+    let audioCtx = null;
+
+    function initAudioContext() {
+      if (!audioCtx) {
+        const AudioContextClass = window.AudioContext || window.webkitAudioContext;
+        if (AudioContextClass) {
+          audioCtx = new AudioContextClass();
+        }
+      }
+    }
+
+    function toggleAudioChime() {
+      audioChimeEnabled = !audioChimeEnabled;
+      const btn = document.getElementById('audio-btn');
+      if (btn) {
+        btn.textContent = audioChimeEnabled ? '🔊 Sound On' : '🔇 Sound Off';
+      }
+    }
+
+    function playChime(type) {
+      if (!audioChimeEnabled) return;
+      try {
+        initAudioContext();
+        if (!audioCtx) return;
+        if (audioCtx.state === 'suspended') {
+          audioCtx.resume();
+        }
+
+        const now = audioCtx.currentTime;
+        const osc = audioCtx.createOscillator();
+        const gain = audioCtx.createGain();
+
+        osc.connect(gain);
+        gain.connect(audioCtx.destination);
+
+        if (type === 'incoming') {
+          // Soft high ping
+          osc.type = 'sine';
+          osc.frequency.setValueAtTime(800, now);
+          osc.frequency.exponentialRampToValueAtTime(1200, now + 0.12);
+          gain.gain.setValueAtTime(0.08, now);
+          gain.gain.exponentialRampToValueAtTime(0.001, now + 0.3);
+          osc.start(now);
+          osc.stop(now + 0.35);
+        } else if (type === 'reply') {
+          // Pleasant two-tone chime
+          osc.type = 'triangle';
+          osc.frequency.setValueAtTime(587.33, now); // D5
+          osc.frequency.setValueAtTime(880, now + 0.08); // A5
+          gain.gain.setValueAtTime(0.09, now);
+          gain.gain.exponentialRampToValueAtTime(0.001, now + 0.4);
+          osc.start(now);
+          osc.stop(now + 0.45);
+        } else if (type === 'success') {
+          // Happy major triad chime
+          osc.type = 'sine';
+          osc.frequency.setValueAtTime(523.25, now); // C5
+          osc.frequency.setValueAtTime(659.25, now + 0.09); // E5
+          osc.frequency.setValueAtTime(783.99, now + 0.18); // G5
+          gain.gain.setValueAtTime(0.1, now);
+          gain.gain.exponentialRampToValueAtTime(0.001, now + 0.6);
+          osc.start(now);
+          osc.stop(now + 0.65);
+        }
+      } catch (err) {
+        console.warn('Audio chime error:', err);
+      }
+    }
+
+    // PERSPECTIVE VIEW SWITCHER FOR VIDEO STAGE
+    function switchVideoMode(mode) {
+      const bgDesk = document.getElementById('vid-bg-desk');
+      const btnDesk = document.getElementById('vid-mode-desk');
+      const btnChat = document.getElementById('vid-mode-chat');
+
+      if (mode === 'desk') {
+        if (bgDesk) bgDesk.style.opacity = '1';
+        if (btnDesk) btnDesk.className = 'px-2.5 py-1 rounded-lg bg-slate-800 text-white font-medium transition';
+        if (btnChat) btnChat.className = 'px-2.5 py-1 rounded-lg text-slate-400 hover:text-white font-medium transition';
+      } else {
+        if (bgDesk) bgDesk.style.opacity = '0.05';
+        if (btnDesk) btnDesk.className = 'px-2.5 py-1 rounded-lg text-slate-400 hover:text-white font-medium transition';
+        if (btnChat) btnChat.className = 'px-2.5 py-1 rounded-lg bg-slate-800 text-white font-medium transition';
+      }
+    }
+
+    // INTERACTIVE CHAT SIMULATOR (HERO)
     function simulateChat(userMessage, botReply) {
       const container = document.getElementById('dynamic-chat-content');
       const chatStream = document.getElementById('chat-stream');
@@ -992,7 +2021,7 @@
 
       const timeString = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
 
-      // Append user bubble
+      // User bubble
       const userBubble = document.createElement('div');
       userBubble.className = 'flex justify-end transition-all duration-300 transform translate-y-2 opacity-0';
       userBubble.innerHTML = `
@@ -1007,7 +2036,7 @@
         chatStream.scrollTop = chatStream.scrollHeight;
       }, 50);
 
-      // Simulate typing indicator & reply
+      // Bot reply
       setTimeout(() => {
         const botBubble = document.createElement('div');
         botBubble.className = 'flex justify-start transition-all duration-300 transform translate-y-2 opacity-0';
@@ -1031,7 +2060,265 @@
       return div.innerHTML;
     }
 
-    // LEAD CAPTURE FORM HANDLER (TRIGGERS MAILTO & SHOWS FRIENDLY BANNER)
+    // MULTI-TRACK VIDEO WALKTHROUGH SIMULATION ENGINE (CLINIC & SALON)
+    let currentVideoTrack = 'clinic';
+    let videoInterval = null;
+    let videoCurrentSeconds = 0;
+    const VIDEO_MAX_SECONDS = 18;
+    let videoPlaybackRate = 1.0;
+    let isVideoPlaying = false;
+
+    const videoTrackData = {
+      clinic: {
+        filename: 'Vexqira_Clinic_AfterHours_Automation.mp4',
+        bgImg: '/clinic-night-desk.jpg',
+        title: 'Scenario: 11:30 PM Clinic Reception Desk',
+        subtitle: 'Front desk is empty • Automated Vexqira AI answers instantly',
+        idleTitle: 'Click to Start Clinic Walkthrough',
+        idleSubtitle: 'Watch 11:30 PM patient triage & calendar locking',
+        msg1: '"Hi, are you available for tomorrow?"',
+        time1: '11:30 PM • ✓✓',
+        botHeader: '⚡ Vexqira AI (Instant reply in 1.2s):',
+        msg2: '"Hello! Dr. Sharma has 2 open slots tomorrow: <strong>11:00 AM</strong> or <strong>5:15 PM</strong>. Which time works best for your consultation?"',
+        time2: '11:30 PM',
+        msg3: '"11:00 AM please. Name: Rahul, phone 98200XXXXX."',
+        time3: '11:31 PM • ✓✓',
+        confirmTitle: '🎉 Your Slot Is Booked For Tomorrow at 11:00 AM!',
+        confirmMsg: '"Confirmed Rahul! You are booked with Dr. Sharma tomorrow at <strong>11:00 AM</strong>. Added to clinic tablet schedule & Google Calendar."',
+        confirmBadges: '<span>✓ Google Calendar Synced</span><span>✓ Tablet Schedule Locked</span><span>✓ WhatsApp Reminder Set</span>',
+        summary: '<span>✅ Slot Captured in 18 Seconds • 0 Staff Overhead • Empty Desk at 11:30 PM</span>'
+      },
+      salon: {
+        filename: 'Vexqira_Salon_PeakRush_Automation.mp4',
+        bgImg: '/salon-spa-booking.jpg',
+        title: 'Scenario: Saturday Peak Rush at Luxury Salon & Spa',
+        subtitle: 'Stylists busy with hair treatments • Vexqira books chair on WhatsApp',
+        idleTitle: 'Click to Start Salon Walkthrough',
+        idleSubtitle: 'Watch peak rush appointment reservation & chair allocation',
+        msg1: '"Hi! Do you have any open slots for Hair Spa & Keratin today afternoon?"',
+        time1: '2:15 PM • ✓✓',
+        botHeader: '⚡ Vexqira AI (Instant reply in 1.2s):',
+        msg2: '"Hi Sarah! Our Master Stylist Rahul has an opening at <strong>3:30 PM</strong> today (duration: 90 mins). Would you like to reserve this chair?"',
+        time2: '2:15 PM',
+        msg3: '"Yes please reserve 3:30 PM for Sarah, 98112XXXXX."',
+        time3: '2:16 PM • ✓✓',
+        confirmTitle: '🎉 Booking Confirmed for Hair Spa & Keratin at 3:30 PM!',
+        confirmMsg: '"Confirmed Sarah! Your chair is locked with Master Stylist Rahul today at <strong>3:30 PM</strong>. Token confirmed and pre-treatment checklist sent."',
+        confirmBadges: '<span>✓ Stylist Chair Allocated</span><span>✓ Salon Schedule Locked</span><span>✓ Pre-Visit Guide Sent</span>',
+        summary: '<span>✅ Chair Reserved in 18 Seconds • 0 Stylist Interruption • 100% Calendar Sync</span>'
+      }
+    };
+
+    function selectVideoTrack(track) {
+      restartVideoSimulation();
+      currentVideoTrack = track;
+      const data = videoTrackData[track];
+      if (!data) return;
+
+      // Update Top Selector Buttons
+      const btnClinic = document.getElementById('video-select-clinic');
+      const btnSalon = document.getElementById('video-select-salon');
+
+      if (track === 'clinic') {
+        if (btnClinic) btnClinic.className = 'px-4 py-2 rounded-xl bg-red-600 text-white shadow-sm transition flex items-center gap-2';
+        if (btnSalon) btnSalon.className = 'px-4 py-2 rounded-xl text-slate-400 hover:text-white transition flex items-center gap-2';
+      } else {
+        if (btnClinic) btnClinic.className = 'px-4 py-2 rounded-xl text-slate-400 hover:text-white transition flex items-center gap-2';
+        if (btnSalon) btnSalon.className = 'px-4 py-2 rounded-xl bg-red-600 text-white shadow-sm transition flex items-center gap-2';
+      }
+
+      // Update Video Player Elements
+      const filenameEl = document.getElementById('video-filename');
+      const bgImg = document.getElementById('vid-bg-img');
+      const titleEl = document.getElementById('video-stage-title');
+      const subEl = document.getElementById('video-stage-subtitle');
+      const idleTitle = document.getElementById('vid-idle-title');
+      const idleSub = document.getElementById('vid-idle-subtitle');
+
+      if (filenameEl) filenameEl.textContent = data.filename;
+      if (bgImg) bgImg.src = data.bgImg;
+      if (titleEl) titleEl.textContent = data.title;
+      if (subEl) subEl.textContent = data.subtitle;
+      if (idleTitle) idleTitle.textContent = data.idleTitle;
+      if (idleSub) idleSub.textContent = data.idleSubtitle;
+
+      // Update message bubble contents
+      const msg1 = document.getElementById('vid-msg-1');
+      const time1 = document.getElementById('vid-time-1');
+      const botHeader = document.getElementById('vid-bot-header');
+      const msg2 = document.getElementById('vid-msg-2');
+      const time2 = document.getElementById('vid-time-2');
+      const msg3 = document.getElementById('vid-msg-3');
+      const time3 = document.getElementById('vid-time-3');
+      const confirmTitle = document.getElementById('vid-confirm-title');
+      const msg4 = document.getElementById('vid-msg-4');
+      const confirmBadges = document.getElementById('vid-confirm-badges');
+      const summaryBanner = document.getElementById('vid-summary-banner');
+
+      if (msg1) msg1.innerHTML = data.msg1;
+      if (time1) time1.textContent = data.time1;
+      if (botHeader) botHeader.textContent = data.botHeader;
+      if (msg2) msg2.innerHTML = data.msg2;
+      if (time2) time2.textContent = data.time2;
+      if (msg3) msg3.innerHTML = data.msg3;
+      if (time3) time3.textContent = data.time3;
+      if (confirmTitle) confirmTitle.innerHTML = data.confirmTitle;
+      if (msg4) msg4.innerHTML = data.confirmMsg;
+      if (confirmBadges) confirmBadges.innerHTML = data.confirmBadges;
+      if (summaryBanner) summaryBanner.innerHTML = data.summary;
+    }
+
+    function scrollToVideoAndPlay() {
+      const section = document.getElementById('video-showcase');
+      if (section) {
+        section.scrollIntoView({ behavior: 'smooth' });
+        setTimeout(() => {
+          playVideoSimulation();
+        }, 600);
+      }
+    }
+
+    function playVideoSimulation() {
+      if (isVideoPlaying) return;
+      isVideoPlaying = true;
+      document.getElementById('vid-idle-prompt')?.classList.add('hidden');
+      document.getElementById('play-icon').textContent = '⏸ Pause';
+      document.getElementById('video-status-badge').textContent = currentVideoTrack === 'clinic' ? 'Live Video 1 Playing' : 'Live Video 2 Playing';
+
+      const intervalDelay = 1000 / videoPlaybackRate;
+
+      videoInterval = setInterval(() => {
+        videoCurrentSeconds++;
+        updateVideoProgressUI();
+
+        // Synchronized realistic triggers matching the 18-second simulated walkthrough
+        if (videoCurrentSeconds === 1) {
+          showVidStep('vid-step-1');
+          playChime('incoming');
+        } else if (videoCurrentSeconds === 3) {
+          showVidStep('vid-step-2');
+          playChime('reply');
+        } else if (videoCurrentSeconds === 7) {
+          showVidStep('vid-step-3');
+          playChime('incoming');
+        } else if (videoCurrentSeconds === 11) {
+          showVidStep('vid-step-4');
+          playChime('success');
+        } else if (videoCurrentSeconds === 15) {
+          showVidStep('vid-step-5');
+        }
+
+        if (videoCurrentSeconds >= VIDEO_MAX_SECONDS) {
+          clearInterval(videoInterval);
+          isVideoPlaying = false;
+          document.getElementById('play-icon').textContent = '🔄 Replay';
+          document.getElementById('video-status-badge').textContent = 'Completed (18s)';
+        }
+      }, intervalDelay);
+    }
+
+    function showVidStep(elementId) {
+      const el = document.getElementById(elementId);
+      if (el) {
+        el.classList.remove('hidden');
+        setTimeout(() => {
+          el.classList.remove('translate-y-2', 'opacity-0');
+        }, 50);
+      }
+    }
+
+    function toggleVideoPlayback() {
+      if (isVideoPlaying) {
+        pauseVideoSimulation();
+      } else {
+        if (videoCurrentSeconds >= VIDEO_MAX_SECONDS) {
+          restartVideoSimulation();
+          playVideoSimulation();
+        } else {
+          playVideoSimulation();
+        }
+      }
+    }
+
+    function pauseVideoSimulation() {
+      clearInterval(videoInterval);
+      isVideoPlaying = false;
+      document.getElementById('play-icon').textContent = '▶ Play';
+      document.getElementById('video-status-badge').textContent = 'Paused';
+    }
+
+    function restartVideoSimulation() {
+      clearInterval(videoInterval);
+      isVideoPlaying = false;
+      videoCurrentSeconds = 0;
+      updateVideoProgressUI();
+
+      ['vid-step-1', 'vid-step-2', 'vid-step-3', 'vid-step-4', 'vid-step-5'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) {
+          el.classList.add('hidden', 'translate-y-2', 'opacity-0');
+        }
+      });
+
+      document.getElementById('vid-idle-prompt')?.classList.remove('hidden');
+      document.getElementById('play-icon').textContent = '▶ Play';
+      document.getElementById('video-status-badge').textContent = 'Ready to Play';
+    }
+
+    function updateVideoProgressUI() {
+      const progressBar = document.getElementById('video-progress-bar');
+      const timer = document.getElementById('video-timer');
+      const percentage = Math.min((videoCurrentSeconds / VIDEO_MAX_SECONDS) * 100, 100);
+
+      if (progressBar) progressBar.style.width = `${percentage}%`;
+      if (timer) {
+        const sec = videoCurrentSeconds % 60;
+        timer.textContent = `0:${sec < 10 ? '0' : ''}${sec} / 0:18`;
+      }
+    }
+
+    function toggleSpeed() {
+      videoPlaybackRate = videoPlaybackRate === 1.0 ? 1.5 : (videoPlaybackRate === 1.5 ? 2.0 : 1.0);
+      document.getElementById('speed-btn').textContent = `${videoPlaybackRate}x`;
+      if (isVideoPlaying) {
+        pauseVideoSimulation();
+        playVideoSimulation();
+      }
+    }
+
+    // 10-QUESTION INTAKE SHEET MODAL
+    function openIntakeModal() {
+      document.getElementById('intake-modal')?.classList.remove('hidden');
+    }
+
+    function closeIntakeModal() {
+      document.getElementById('intake-modal')?.classList.add('hidden');
+    }
+
+    function copyIntakeQuestions() {
+      const text = `Vexqira AI Solutions — 10-Question Client Onboarding Form:
+
+1. Business Name & Owner/Doctor: Legal name & public trade name.
+2. Business Type: Clinic / Dermatology / Salon / Spa / Real Estate.
+3. Operating Hours: Regular opening and closing hours.
+4. Official WhatsApp Number: Dedicated number to connect 24/7 AI.
+5. Consultation / Service Fees: Pricing list / base rates.
+6. Full Address & Landmark: Directions, parking notes for clients.
+7. Google Calendar / Booking Link: Email address to sync appointments.
+8. Top 5-10 Frequent Questions: Common questions patients/clients ask.
+9. Emergency / Human Escalation Phone: Number for immediate staff handoff.
+10. Special Appointment Instructions: Pre-visit guidelines for clients.`;
+
+      navigator.clipboard.writeText(text).then(() => {
+        const msg = document.getElementById('copy-success-msg');
+        if (msg) {
+          msg.classList.remove('hidden');
+          setTimeout(() => msg.classList.add('hidden'), 4000);
+        }
+      });
+    }
+
+    // CONTACT FORM SUBMISSION (DIRECT MAILTO HANDLER)
     function handleContactSubmit(event) {
       event.preventDefault();
       const name = document.getElementById('contact-name').value;
@@ -1044,15 +2331,13 @@
         `Hi Vexqira Team,\n\nI would like a free AI demo for my business.\n\nName: ${name}\nPhone / WhatsApp: ${phone}\nBusiness Type: ${businessType}\nNotes / Requirements: ${message}\n\nPlease reach out to me.\n\nThank you!`
       );
 
-      // Trigger mailto link directly to vexqira@gmail.com
+      // Open email directed to vexqira@gmail.com
       const mailtoUrl = `mailto:vexqira@gmail.com?subject=${subject}&body=${body}`;
       window.location.href = mailtoUrl;
 
-      // Show banner
+      // Show confirmation
       const banner = document.getElementById('form-success-banner');
-      if (banner) {
-        banner.classList.remove('hidden');
-      }
+      if (banner) banner.classList.remove('hidden');
     }
   </script>
 </body>
